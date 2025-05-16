@@ -1,0 +1,15 @@
+{
+  "PROGRAMMING_LANGUAGE": "JavaScript",
+  "EXTERNAL_DEPENDENCIES": ["p5.js"],
+  "LANGUAGE_OF_COMMENTS": "English",
+  "FUNCTIONS": true,
+  "CLASSES": false,
+  "CODE_DESCRIPTION": "This p5.js sketch continuously draws dynamic Bezier curves using Perlin noise to generate smooth, randomized control points. Each curve has a unique color and position. The user can toggle pause/resume with mouse clicks, and the sketch includes an optional recursive function to draw multiple curves at decreasing scale.",
+  "GENERATION_METHOD": "Perlin noise-driven control points with recursive and interactive Bezier curve generation",
+  "OUTPUT_FORMAT": ["image"],
+  "OUTPUT_DESCRIPTION": "Animated visualization of continuously generated Bezier curves in varying colors on a black background, with smooth flowing lines and optional recursive detail.",
+  "ANIMATION": true,
+  "INTERACTIVITY": true,
+  "USER_INPUTS": ["mouse"],
+  "COMMUNICATION_PROTOCOLS": []
+}

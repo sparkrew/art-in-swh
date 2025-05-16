@@ -1,0 +1,15 @@
+{
+  "PROGRAMMING_LANGUAGE": "JavaScript",
+  "EXTERNAL_DEPENDENCIES": ["p5.js"],
+  "LANGUAGE_OF_COMMENTS": "English",
+  "FUNCTIONS": true,
+  "CLASSES": false,
+  "CODE_DESCRIPTION": "This p5.js sketch generates layered Bezier curves using Perlin noise for dynamic control point variation. Each execution draws colorful abstract shapes on a black canvas, with optional overlaid source-code text. The layout respects margin boundaries for composition and varies stroke color, weight, and number of steps randomly. The result is a generative artwork based on controlled noise and randomness.",
+  "GENERATION_METHOD": "Randomness and Perlin noise for Bezier control points, combined with rule-based structure and color variation",
+  "OUTPUT_FORMAT": ["image"],
+  "OUTPUT_DESCRIPTION": "A static generative artwork consisting of abstract Bezier curves in varying colors and thicknesses on a black canvas, optionally annotated with random text snippets.",
+  "ANIMATION": false,
+  "INTERACTIVITY": false,
+  "USER_INPUTS": [],
+  "COMMUNICATION_PROTOCOLS": []
+}

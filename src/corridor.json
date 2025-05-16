@@ -1,0 +1,15 @@
+{
+  "PROGRAMMING_LANGUAGE": "JavaScript",
+  "EXTERNAL_DEPENDENCIES": ["p5.js"],
+  "LANGUAGE_OF_COMMENTS": "English",
+  "FUNCTIONS": true,
+  "CLASSES": false,
+  "CODE_DESCRIPTION": "This p5.js sketch recursively draws nested rectangles with decreasing size and stroke brightness. Each frame clears the canvas to black and redraws the pattern, creating a static but visually recursive tunnel-like effect.",
+  "GENERATION_METHOD": "Recursive rule-based drawing of rectangles with decreasing dimensions and color intensity",
+  "OUTPUT_FORMAT": ["image"],
+  "OUTPUT_DESCRIPTION": "A series of nested, unfilled rectangles in varying shades of gray, centered on a black background, forming a tunnel-like recursive pattern.",
+  "ANIMATION": false,
+  "INTERACTIVITY": false,
+  "USER_INPUTS": [],
+  "COMMUNICATION_PROTOCOLS": []
+}

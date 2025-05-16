@@ -1,0 +1,15 @@
+{
+  "PROGRAMMING_LANGUAGE": "JavaScript",
+  "EXTERNAL_DEPENDENCIES": ["p5.js"],
+  "LANGUAGE_OF_COMMENTS": "English",
+  "FUNCTIONS": true,
+  "CLASSES": false,
+  "CODE_DESCRIPTION": "The code uses p5.js to draw a dynamic Bézier curve on a black background. The curve updates in real time based on the mouse position, which controls one of the control points. Anchor and control points are visually represented with colored points.",
+  "GENERATION_METHOD": "Rule-based system using Bézier curve drawing with mouse-dependent control point",
+  "OUTPUT_FORMAT": ["image"],
+  "OUTPUT_DESCRIPTION": "A dynamic visualization of a Bézier curve on a black canvas, with interactive deformation driven by mouse movement and colored points indicating control and anchor positions.",
+  "ANIMATION": true,
+  "INTERACTIVITY": true,
+  "USER_INPUTS": ["mouse"],
+  "COMMUNICATION_PROTOCOLS": []
+}

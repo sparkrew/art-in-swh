@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const sketch = params.get('sketch');
+    if (sketch) {
+      const script = document.createElement('script');
+      script.src = `src/${sketch}`;
+      document.head.appendChild(script);
+    } else {
+      document.write("No sketch specified");
+    }
+  </script>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body></body>
+</html>
