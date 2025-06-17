@@ -6,7 +6,7 @@ def remove_duplicate_lines(input_file, output_file):
         with open(input_file, 'r', encoding='utf-8') as f:
             lines = f.readlines()
         
-        # Remove duplicates while preserving order
+        # Remove duplicates
         seen = set()
         unique_lines = []
         
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     remove_duplicate_lines(input_file, parsed_urls_topics_github)
     print(f"Deduplicated content saved to: {parsed_urls_topics_github}")
     
-    github_url_json = '../data/github_art_repos_by_topic_parsed.json'
+    github_url_json = '../data/github_art_repos_urls.json'
     github_topics_json = '../data/github_art_topics_list.json'
 
     url_list, unique_topics_set = generate_jsons(parsed_urls_topics_github)
