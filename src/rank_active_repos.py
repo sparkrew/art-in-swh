@@ -135,5 +135,5 @@ if __name__ == "__main__":
 
     # Dataframe to sort and save
     data = pd.DataFrame.from_dict(processed_urls).T.reset_index(names="url")
-    data = data.sort_values(by="score", ascending=False).reset_index(drop=True)
+    data = data.sort_values(by="score", ascending=False).reset_index(drop=True).reset_index(names="rank")
     data.to_csv(output_file, index=False)
