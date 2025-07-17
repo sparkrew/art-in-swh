@@ -18,7 +18,7 @@ if response.ok:
         parts=header.text.split('(')
     	# save the artist name in file
         artistslist.write(parts[0]+'\n')
-        artistslist.close()
+    artistslist.close()
 else:
     print ("Boo! {}".format(response.status_code))
     print (response.text)
