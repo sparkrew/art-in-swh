@@ -17,6 +17,15 @@
   - example of supercollider: https://github.com/supercollider/supercollider/blob/develop/examples/other/quines.scd
 - [yogya]
   - move data from your account to a shared folder on madagh
+- [nadia]
+  - merge the two datasets REPOS and FILES into a single art_repos.json, according to the schma defined in art_repos_schema.json  
+- [roxana] cpp and h files
+  - how many are openframeworks?
+- v4p, toe, tox, ndbx: patches for touchedesigner and other things, most probably 'infrastructure' for the arts. To be investigated further
+- [yogya]: update the 'origins' table in the paper
+  - look into the gitlab repos: how many subdomains do we have? 
+  - remove all origins that have disappeared after filtering out clojure
+  - add origins from the 'REPOS' dataset
 
 2025.09.18
 - alliance can / calcul québec
