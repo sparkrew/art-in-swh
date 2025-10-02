@@ -1,3 +1,23 @@
+2025.10.02
+- [nadia]
+  - reorganize data and scripts
+  - move images and md files from overleaf into this repo
+- [roxana] REPOS dataset:
+  - how many repos have the topic p5.js?
+    - Answer: 7374 repos 
+  - how do they declare the dependency to p5 ? (html, package.json, other?)
+    - Answer: WIP, crawling ongoing
+  - how many of the 2000000 js files are p5.js
+    - PENDING
+- [nadia] triage pde file
+  - example of an 'art' pde file: https://github.com/ronikaufman/poetical_computer_vision/blob/2955696b04444bc6200b6ab9c50c7f51a47f2f6f/days21-31/day27/day27.pde#L4; or this one from cern: https://gitlab.cern.ch/cms_tk_ph2/Ph2_USBInstDriver/-/blob/master/ArdNano/Arduino_Controller/RelayControl/RelayControl.pde
+  -  how many of the 10000000 pde files have a setup() method, a draw(), both?
+- [roxana] triage scd files
+  - example of man page: https://gitlab.alpinelinux.org/Rboccardi661/apk-tools/-/blob/master/doc/apk-update.8.scd?ref_type=heads
+  - example of supercollider: https://github.com/supercollider/supercollider/blob/develop/examples/other/quines.scd
+- [yogya]
+  - move data from your account to a shared folder on madagh
+
 2025.09.18
 - alliance can / calcul québec
   - https://docs.alliancecan.ca/wiki/Tutoriel_Apprentissage_machine/en
@@ -22,8 +42,8 @@
   - example of supercollider: https://github.com/supercollider/supercollider/blob/develop/examples/other/quines.scd
 - [nadia] clj files: we remove them
     - create a new file without the clj files
-    -----> ori_swhid from 2,245,781 -> 1,624,904
-    -----> match_count from 25,138,058 -> 14,739,082
+      - ori_swhid from 2,245,781 -> 1,624,904
+      - match_count from 25,138,058 -> 14,739,082
 
 - [roxana] cpp and h files
   - how many are openframeworks?
