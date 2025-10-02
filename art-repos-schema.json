@@ -1,10 +1,14 @@
 {
   "repo_url":{
-    "SWH_GHtopics": null or {
-    
+    "SWH_GHtopics": {
+      "enum": [
+        null or topics in issue 2
+      ]
     },
-    "SWH_signals": null or {
-      
+    "SWH_signals": {
+      "enum": [
+        null or file extensions
+      ]
     },
     "matched_files":null or {
       "file_name": ,
