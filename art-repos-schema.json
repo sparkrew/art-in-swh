@@ -8,7 +8,7 @@
     },
     "matched_files":null or {
       "file_name": ,
-      "swhid":
+      "swhid": ,
     },
     "live": true or false or false,
     "swhid": swhid or null
