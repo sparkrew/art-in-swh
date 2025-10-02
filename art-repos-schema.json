@@ -1,8 +1,15 @@
 {
   "repo_url":{
-    "SWH_GHtopics":[GH tags matched in SWH to explain why we collected repo] or null,
-    "SWH_signals":[list of signals found in SWH to explain why we collected repo] or null,
-    "matched_files":[list of files collected in SWH, which match signals] or null,
+    "SWH_GHtopics": null or {
+    
+    },
+    "SWH_signals": null or {
+      
+    },
+    "matched_files":null or {
+      "file_name": ,
+      "swhid":
+    },
     "live": true or false or false,
     "swhid": swhid or null
   }
