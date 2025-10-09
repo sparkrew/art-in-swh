@@ -1,3 +1,32 @@
+2025.10.09
+- [rafaela] managed to upload a model on calcul quebec 
+  - [all] can we access the data in the shared folder named 'rafaela'?
+  - documentation: https://docs.alliancecan.ca/wiki/Rorqual/en
+  - Test file is in /home/<youraccountname>/links/projects/def-baudry/rpinter
+  - https://duo.com/
+- [rafaela, benoit, yogya, nadia]
+  - pick five different p5.js sketches
+  - create one json file name-of-sketch.json per piece and document the [four different categories](https://github.com/sparkrew/art-in-swh/blob/main/gen-art-classification.md) for the piece
+  - add sketch + corresponding json in the shared folder on calcul QC
+- [roxana]
+  - push the classification of p5-topic-repos here
+  - continue looking for declaration of p5 in the 1000+ repos
+  - how many of the 2000000 js files are p5.js
+    - 600K+ unique origins have p5
+- [nadia] has used her computer, but we cannot wait for 291 days to know how many pde files are art
+- [nadia] builds THE big, clean json file for all origins
+- [roxana] triage scd files
+  - PENDING
+- [yogya] has moved the data file (2G) from madagh to calcul QC
+- [roxana] cpp and h files
+  - how many are openframeworks?
+- [yogya]
+  - write a few sentences about the gitlab subdomains
+  - update the table again when we have THE big metadate file, with available / obsolete
+
+
+
+
 2025.10.02
 - [nadia]
   - reorganize data and scripts
