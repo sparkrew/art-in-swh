@@ -23,7 +23,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Load the JSON data
-with open("counts.json", "r") as f:
+with open("../data/count_file_repetitions", "r") as f:
     data = json.load(f)
 
 # Filter out counts <= 1
