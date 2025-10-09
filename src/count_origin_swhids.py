@@ -7,7 +7,7 @@ import json
 import matplotlib.pyplot as plt
 
 # Load the JSON data
-with open("origin_occurrences.json", "r") as f:
+with open("../data/count_origin_swhids.json", "r") as f:
     data = json.load(f)
 
 # Filter out counts <= 1
