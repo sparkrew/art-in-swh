@@ -1,26 +1,28 @@
 In their [A framework for understanding generative art](https://www.tandfonline.com/doi/pdf/10.1080/14626268.2012.709940), Dorin and colleagues distinguish 4 main dimensions to characterize a piece of generative art: entities; processes; environmental interaction; and sensory outcomes. We use these four dimensions to analyze generative artworks, and refine them with concrete options for each dimnesion. We aim at using an ML based approach to precisely charactarize existing programs for generative art, based on this framework.
 
 - Entities
-  - particles
-  - geometric shapes
-  - lines
-  - sound sample
+  - particle
+  - geometric_shape
+  - line
+  - sound_sample
   - rhythm
-  - sound envelop
+  - sound_envelop
+  - oscillator
   - video
   - image
   - text
   - other
 - Processes
   - randomness
-  - genetic algorithm
-  - L system
-  - game of life
-  - bio-inspired algorithm
-  - flow field
-  - additive synthesis
-  - subtractive synthesis
-  - frequency modulation synthesis
+  - perlin_noise
+  - genetic_algorithm
+  - L_system
+  - game_of_life
+  - bio-inspired_algorithm
+  - flow_field
+  - additive_synthesis
+  - subtractive_synthesis
+  - frequency_modulation_synthesis
   - glitch
   - distorsion
   - other
@@ -36,10 +38,10 @@ In their [A framework for understanding generative art](https://www.tandfonline.
   - other
   - none
 - Sensory outcomes
-  - visual artifact
+  - visual_artifact
   - sonic
   - musical 
   - literary
   - sculptural
-  - static or time-based
   - other
+  - static or time-based [one of these values is mandatory for this characteristic]

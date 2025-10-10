@@ -1,0 +1,6 @@
+{
+    "entities": ["geometric_shape","text","line"],
+    "processes": ["randomness"],
+    "interaction": ["none"],
+    "outcome": ["visual_artifact","time-based"]
+}

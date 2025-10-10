@@ -1,0 +1,6 @@
+{
+    "entities": ["particle","oscillator"],
+    "processes": ["additive_synthesis"],
+    "interaction": ["mouse"],
+    "outcome": ["sonic","visual_artifact","time-based"]
+}

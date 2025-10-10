@@ -1,0 +1,6 @@
+{
+    "entities": ["geometric_shape","text","line"],
+    "processes": ["perlin_noise","flow_field","randomness"],
+    "interaction": ["none"],
+    "outcome": ["visual_artifact","static"]
+}

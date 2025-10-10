@@ -1,0 +1,6 @@
+{
+    "entities": ["geometric_shape"],
+    "processes": ["randomness"],
+    "interaction": ["none"],
+    "outcome": ["visual_artifact","static"]
+}
