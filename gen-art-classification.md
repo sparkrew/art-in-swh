@@ -5,11 +5,12 @@ In their [A framework for understanding generative art](https://www.tandfonline.
   - geometric shapes
   - lines
   - sound sample
-  - rythm
+  - rhythm
   - sound envelop
   - video
   - image
   - text
+  - other
 - Processes
   - randomness
   - genetic algorithm
@@ -22,15 +23,18 @@ In their [A framework for understanding generative art](https://www.tandfonline.
   - frequency modulation synthesis
   - glitch
   - distorsion
+  - other
 - Environmental interaction
-    - data file
-    - data stream
-    - web api
-    - motion sensor
-    - microphone
-    - keyboard
-    - mouse
-    - camera
+  - data file
+  - data stream
+  - web api
+  - motion sensor
+  - microphone
+  - keyboard
+  - mouse
+  - camera
+  - other
+  - none
 - Sensory outcomes
   - visual artifact
   - sonic
@@ -38,3 +42,4 @@ In their [A framework for understanding generative art](https://www.tandfonline.
   - literary
   - sculptural
   - static or time-based
+  - other
