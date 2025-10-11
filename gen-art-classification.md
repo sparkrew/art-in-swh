@@ -25,6 +25,8 @@ In their [A framework for understanding generative art](https://www.tandfonline.
   - frequency_modulation_synthesis
   - glitch
   - distorsion
+  - 3D
+  - shader
   - other
 - Environmental interaction
   - data file
