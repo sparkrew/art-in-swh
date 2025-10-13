@@ -1,0 +1,6 @@
+{
+    "entities": ["particle"],
+    "processes": ["perlin_noise","flow_field","randomness", "frequency"],
+    "interaction": ["none"],
+    "outcome": ["visual_artifact","time-based", "sound"]
+}

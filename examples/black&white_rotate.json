@@ -1,0 +1,6 @@
+{
+    "entities": ["geometric_shape","line"],
+    "processes": ["rotation", "randomness"],
+    "interaction": ["none"],
+    "outcome": ["visual_artifact","move"]
+}

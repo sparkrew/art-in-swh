@@ -1,0 +1,6 @@
+{
+    "entities": ["geometric_shape","line", "circle"],
+    "processes": [],
+    "interaction": ["mouse"],
+    "outcome": ["visual_artifact", "static"]
+}
