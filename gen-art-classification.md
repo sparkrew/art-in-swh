@@ -17,3 +17,5 @@ In their [A framework for understanding generative art](https://www.tandfonline.
   - auditory
   - physical
   - static or time-based [one of these values is mandatory for this characteristic]
+
+We also ask the LLM: Is this piece reusing existing algorithm ?
