@@ -1,6 +1,5 @@
 {
-    "entities": ["line"],
-    "processes": ["randomness"],
+    "entities": ["synthesized image","randomness"],
     "interaction": ["none"],
-    "outcome": ["visual_artifact","static"]
+    "outcome": ["visual","static"]
 }

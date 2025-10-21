@@ -1,6 +1,5 @@
 {
-    "entities": ["geometric_shape"],
-    "processes": ["randomness"],
+    "material": ["synthesized image","randomness"],
     "interaction": ["none"],
-    "outcome": ["visual_artifact","static"]
+    "outcome": ["visual","static"]
 }

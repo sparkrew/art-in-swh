@@ -1,6 +1,5 @@
 {
-    "entities": ["geometric_shape","text","line"],
-    "processes": ["perlin_noise","flow_field","randomness"],
+    "entities": ["synthesized image","text","randomness"],
     "interaction": ["none"],
-    "outcome": ["visual_artifact","static"]
+    "outcome": ["visual","static"]
 }
