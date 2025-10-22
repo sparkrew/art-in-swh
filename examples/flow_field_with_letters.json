@@ -1,6 +1,6 @@
 {
     "entities": ["particle","letters"],
-    "processes": ["perlin_noise","flow_field","randomness"],
+    "processes": ["perlin noise","flow field","randomness"],
     "interaction": ["none"],
-    "outcome": ["visual_artifact","time-based"]
+    "outcome": ["visual","time-based"]
 }

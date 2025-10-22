@@ -1,6 +1,6 @@
 {
-    "entities": ["geometric_shape","line", "circle"],
+    "entities": ["geometric","line", "circle"],
     "processes": [],
     "interaction": ["mouse"],
-    "outcome": ["visual_artifact", "static"]
+    "outcome": ["visual", "static"]
 }
