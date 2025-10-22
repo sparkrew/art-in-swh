@@ -98,9 +98,9 @@ we get the same true classification :)  It means that the model could understand
 
 # Some observations so far: 
 
-- Sending all questions at once makes the output unstable (probably too much information to extract). The model behaves differently in multiple repetitions. Tends to be more accurate then wrong.
+- Sending all questions at once makes the output unstable (probably too much information to extract): the model behaves differently in multiple repetitions. It tends to be more accurate than wrong.
 - Sending one question at a time makes the output stable (always the same answer), but sometimes incorrect. From a very short experiment, it seems that it was more prone to false positives.
-- Sending the group of questions by category is the perfect balance for stability and accuracy.
+- Sending the group of questions by category is a good balance for stability and accuracy.
 - Open questions are more prone to false positives too.
   - Instead of giving examples (eg *computer interaction (for example through data file, data stream, remote data, web API, etc.)*), we should ask one interaction type at a time for better accuracy.
   - Perhaps we should do it for the human interaction too. I wonder if we will have accuracy problems if we keep the question as-is.
