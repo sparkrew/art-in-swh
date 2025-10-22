@@ -46,27 +46,42 @@ function trianglewlines(x1, y1, x2, y2, x3, y3) {
 
 ## Material and Processes
 
-Q: 1) Does it use external audio file? [True/False] | A: False
-Q: 2) Does it use external image file? [True/False] | A: False
-Q: 3) Does it generate sound? [True/False] | A: False
-Q: 4) Does it generate images? [True/False] | A: True
-Q: 5) Does it contain randomness? [True/False] | A: True
-Q: 6) Does it contain interactions? [True/False] | A: False
+- 1) Does it use external audio file? [True/False]
+    - A: False
+- 2) Does it use external image file? [True/False]
+    - A: False
+- 3) Does it generate sound? [True/False]
+    - A: False
+- 4) Does it generate images? [True/False]
+    - A: True
+- 5) Does it contain randomness? [True/False]
+    - A: True
+- 6) Does it contain interactions? [True/False]
+    - A: False
 
 ## Environmental interaction
 
-Q: 1) Does it depend on human interaction (through mouse, midi controller, microphone, keyboard, camera, motion sensor, or lidar) to run? [True/False] | A: False
-Q: 2) Does it depend on computer interaction through data files to run? [True/False] | A: False
-Q: 3) Does it depend on computer interaction through data stream to run? [True/False] | A: False
-Q: 4) Does it depend on computer interaction through remote data to run? [True/False] | A: False
-Q: 5) Does it depend on computer interaction through web API to run? [True/False] | A: False
+- 1) Does it depend on human interaction (through mouse, midi controller, microphone, keyboard, camera, motion sensor, or lidar) to run? [True/False]
+    - A: False
+- 2) Does it depend on computer interaction through data files to run? [True/False]
+    - A: False
+- 3) Does it depend on computer interaction through data stream to run? [True/False]
+    - A: False
+- 4) Does it depend on computer interaction through remote data to run? [True/False]
+    - A: False
+- 5) Does it depend on computer interaction through web API to run? [True/False]
+    - A: False
 
 ## Sensory outcomes
 
-Q: 1) Does it produce visual sensory outcomes? [True/False] | A: True
-Q: 2) Does it produce auditory sensory outcomes? [True/False] | A: False
-Q: 3) Does it produce physical sensory outcomes? [True/False] | A: False
-Q: 4) Does it produce static or time-based (one of these values is mandatory for this characteristic) sensory outcomes? [True/False] | A: True
+- 1) Does it produce visual sensory outcomes? [True/False]
+    - A: True
+- 2) Does it produce auditory sensory outcomes? [True/False]
+    - A: False
+- 3) Does it produce physical sensory outcomes? [True/False]
+    - A: False
+- 4) Does it produce static or time-based (one of these values is mandatory for this characteristic) sensory outcomes? [True/False]
+    - A: True
 
 if we compile the answers into a json:
 
