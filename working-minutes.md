@@ -1,3 +1,17 @@
+2025.10.23
+- [rafaela] runs llama7B with 80Go of GPU
+- [rafaela and roxana]
+  - continue testing different prompts, different examples
+  - both work on different approaches -> great for experimenting
+- [nadia] works on the one single consolidated metadata file
+- [benoit] write a short definition for each element of the classification
+- [roxana] triage scd files
+  - PENDING
+- [roxana] cpp and h files
+  - how many are openframeworks?
+- [yogya, nadia, benoit] more examples
+
+
 2025.10.09
 - [rafaela] managed to upload a model on calcul quebec 
   - [all] can we access the data in the shared folder named 'rafaela'?
