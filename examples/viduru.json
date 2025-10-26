@@ -1,0 +1,5 @@
+{
+    "entities": ["synthesized image", "synthesized sound", "randomness"],
+    "interaction": ["none"],
+    "outcome": ["visual", "auditory", "time-based"]
+}

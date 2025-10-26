@@ -1,0 +1,5 @@
+{
+    "entities": ["synthesized image","randomness"],
+    "interaction": ["computer_interaction"],
+    "outcome": ["visual", "time-based"]
+}
