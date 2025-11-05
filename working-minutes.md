@@ -1,3 +1,13 @@
+2025.11.05
+- [nadia] investigate how to do efficient queries to GitHub. How many repos can we query in a reasonable time to get info such as nb of contributors, date of oldest/newest commit, etc. ?
+- [roxana] can we use chatgpt to build a labeled set of code files, which we then use for RAG+LLama?
+- [roxana] triage scd files
+  - PENDING
+- [roxana] cpp and h files
+  - how many are openframeworks?
+ - THE consolidated metadata file is on zenodo: https://zenodo.org/records/17536966
+ - [all] how about using an LLM to find out the language in which the readme files are written (EN, SP, FR, etc.)? Do some repos mix several languages (SP+KR) ?
+
 2025.10.23
 - [rafaela] runs llama7B with 80Go of GPU
 - [rafaela and roxana]
