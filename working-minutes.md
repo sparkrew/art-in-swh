@@ -1,6 +1,7 @@
 2025.11.13
 - [rafaela] calcul QC sabotage ;(
-  - https://qwen3lm.com/
+  - https://qwen3lm.com/ might be better than llama
+  - https://www.swebench.com/
 
 2025.11.05
 - [nadia] investigate how to do efficient queries to GitHub. How many repos can we query in a reasonable time to get info such as nb of contributors, date of oldest/newest commit, etc. ?
