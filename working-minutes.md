@@ -1,3 +1,7 @@
+2025.11.13
+- [rafaela] calcul QC sabotage ;(
+  - https://qwen3lm.com/
+
 2025.11.05
 - [nadia] investigate how to do efficient queries to GitHub. How many repos can we query in a reasonable time to get info such as nb of contributors, date of oldest/newest commit, etc. ?
 - [roxana] can we use chatgpt to build a labeled set of code files, which we then use for RAG+LLama?
