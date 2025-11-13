@@ -1,7 +1,7 @@
 import os
 import requests
 import json
-from dotenv import load_dotenv
+from dotenv import load_dotenv # type: ignore
 
 load_dotenv()
 headers = {"Authorization": "Bearer "+os.getenv("API_KEY")}
@@ -51,14 +51,34 @@ query2 = f"""
       ... on Repository {{
         nameWithOwner
         createdAt
+        
+        # Contributors (commit authors)
+        defaultBranchRef {{
+          name
+          target {{
+            ... on Commit {{
+              history(first: 100) {{
+                totalCount   # total commits (capped if large)
+                edges {{
+                  node {{
+                    author {{
+                      user {{
+                        login
+                      }}
+                    }}
+                  }}
+                }}
+              }}
+            }}
+          }}
+        }}
+ 
         # README content (if exists)
         object(expression: "HEAD:README.md") {{
           ... on Blob {{
             text
           }}
         }}
-
-
       }}
     }}
   }}
@@ -76,7 +96,17 @@ for repo in rel:
     print(name)
     print("+++++++++++++++++++++++++++++++++++++")
     date=repo["createdAt"]
-    print(f"Created on {date}")
+    print(f"Created on: {date}")
+    commits = repo["defaultBranchRef"]["target"]["history"]["totalCount"]
+    print(f"Number of commits: {commits}")
+    contributors = [edge["node"]["author"]["user"]["login"]
+                for edge in repo["defaultBranchRef"]["target"]["history"]["edges"]
+                if edge["node"]["author"]["user"]]
+    if len(contributors)!= 0:
+      main_contributor = max(set(contributors), key=contributors.count)
+      print(f"Main contributor: {main_contributor}")
+    else:
+      print("Main contributor: no contributor is listed")
     # file_count = len(repo["object(expression: \"HEAD:\")"]["entries"])
     # print("Number of files at root: "+file_count)
     readme = repo["object"]["text"] if repo["object"] else None
