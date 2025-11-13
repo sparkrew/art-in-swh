@@ -2,6 +2,10 @@
 - [rafaela] calcul QC sabotage ;(
   - https://qwen3lm.com/ might be better than llama
   - https://www.swebench.com/
+- [roxana] llama3-70B
+  - good prompts
+  - false negatives are ok in our case: we will report on conservatives estimates of the different styles
+  - can we take inspiration from this, in order to document our prompts: https://sites.google.com/view/testgeneralizer/prompts/test-generalization?authuser=0 
 
 2025.11.05
 - [nadia] investigate how to do efficient queries to GitHub. How many repos can we query in a reasonable time to get info such as nb of contributors, date of oldest/newest commit, etc. ?
