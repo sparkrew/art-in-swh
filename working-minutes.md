@@ -20,12 +20,15 @@
   - good prompts
   - false negatives are ok in our case: we will report on conservatives estimates of the different styles
   - can we take inspiration from this, in order to document our prompts: https://sites.google.com/view/testgeneralizer/prompts/test-generalization?authuser=0
-  - test Claude to label a few files
-- [benoit] provide more examples of labeled p5.js pieces
-- [nadia] working on getting consistent data for live/dead origins
+  - good progress on the 'cleaning' of scd files
 - [benoit] first draft of a script to fetch data about each origin. For now, nb of commits, main contributor, readme files.
-- [benoit] push the 'array' version of the json file in the shared folder
-- [roxana] determine the language of the readme file
+- [nadia] working on getting consistent data for live/dead origins 
+- [benoit]
+  - push the 'array' version of the json file in the shared folder
+  - provide more examples of labeled p5.js pieces
+- [roxana]
+  - determine the natural language of the readme file
+  - test Claude to label a few files
 - [all] think about research questions for our study. we can document the RQs in overleaf
 
 2025.11.05
