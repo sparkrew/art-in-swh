@@ -59,6 +59,8 @@ for i in data:
 # The outer GraphQL braces must be escaped with double braces {{ ... }} so that Python doesn’t treat them as placeholders.
 # Inside the query, the query: field expects a quoted string, so you wrap {s} in ".
 # The idea of search comes from https://til.simonwillison.net/github/bulk-repo-github-graphql
+# The following query searches a set of repos that in the search_query string
+# For each repo, it queries the name of the owner, date of creation, the number of commits, the top 100 contributors and the readme
 queryforrepositories = f"""
 {{
   search(type: REPOSITORY, query: "{search_query}", first: 100) {{
@@ -100,6 +102,8 @@ queryforrepositories = f"""
 }}
 """
 
+# https://docs.github.com/en/graphql/reference/objects#user
+# this query expects a user login as a parameter and returns the location, date of creation and bio for that login
 queryforuser = """
 query getUserLocation($login: String!) {
   user(login: $login) {
@@ -111,9 +115,7 @@ query getUserLocation($login: String!) {
 }
 """
 
-ratebefore = run_query(queryrate)
-# remaining_rate_limit = result_rate["data"]["rateLimit"]["remaining"] # Drill down the dictionary
-# print("Remaining rate limit - {}".format(remaining_rate_limit))
+#ratebefore = run_query(queryrate)
 
 result = run_query(queryforrepositories)
 allrepos = result["data"]["search"]["nodes"]
@@ -151,6 +153,6 @@ for repo in allrepos:
     print("+++++++++++++++++++++++++++++++++++++")
 
 
-rateafter = run_query(queryrate)
-total_hits = ratebefore["data"]["rateLimit"]["remaining"] - rateafter["data"]["rateLimit"]["remaining"]# Drill down the dictionary
-print("Total requests - {}".format(total_hits)+". Was there before {}".format(ratebefore["data"]["rateLimit"]["remaining"])+", and now {}".format(rateafter["data"]["rateLimit"]["remaining"]))
+    # rateafter = run_query(queryrate)
+    # total_hits = ratebefore["data"]["rateLimit"]["remaining"] - rateafter["data"]["rateLimit"]["remaining"]# Drill down the dictionary
+    # print("Total requests - {}".format(total_hits)+". Was there before {}".format(ratebefore["data"]["rateLimit"]["remaining"])+", and now {}".format(rateafter["data"]["rateLimit"]["remaining"]))
