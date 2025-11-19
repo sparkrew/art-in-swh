@@ -1,20 +1,23 @@
-{
-  "repo_url":{
-    "SWH_GHtopics": {
-      "enum": [
-        null or topics in issue 2
-      ]
-    },
-    "SWH_signals": {
-      "enum": [
-        null or file extensions
-      ]
-    },
-    "matched_files":null or {
-      "file_name": ,
-      "swhid": ,
-    },
-    "live": true or false or false,
-    "swhid": swhid or null
+[
+  {
+    "origin":"repo_url",
+    "metadata":{
+      "SWH_GHtopics": {
+        "enum": [
+          null or topics in issue 2
+        ]
+      },
+      "SWH_signals": {
+        "enum": [
+          null or file extensions
+        ]
+      },
+      "matched_files":null or {
+        "file_name": ,
+        "swhid": 
+      },
+      "live": true or false or false,
+      "swhid": swhid or null
+    }
   }
-}
+]

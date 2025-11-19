@@ -1,3 +1,36 @@
+2025.11.13
+- [rafaela] calcul QC sabotage ;(
+  - https://qwen3lm.com/ might be better than llama
+  - https://www.swebench.com/
+  - **Code analysis with LLMs**
+    - A Survey on Large Language Models for Code Generation - https://dl.acm.org/doi/pdf/10.1145/3747588
+    - Do Code LLMs Do Static Analysis? - https://arxiv.org/pdf/2505.12118v1
+    - Resource-Efficient & Effective Code Summarization - https://arxiv.org/pdf/2502.03617v1
+  - **Creating Tags with LLMs**
+    - [cool one] LLM4Tag: Automatic Tagging System for Information Retrieval via Large Language Models - https://arxiv.org/pdf/2502.13481v2
+    - ICXML: An In-Context Learning Framework for Zero-Shot Extreme Multi-Label Classification - https://aclanthology.org/2024.findings-naacl.134.pdf
+    - TagGPT: Large Language Models are Zero-shot Multimodal Taggers - https://arxiv.org/pdf/2304.03022
+  - **Classification without LLM**
+    - Towards an Automated Classification of Software Libraries - https://link.springer.com/article/10.1007/s42979-024-02654-2
+      - trains a model to classify text
+    - Fine-Tuning BERT for Text Classification: A Step-by-Step Guide with Code Examples - https://medium.com/researchify/fine-tuning-bert-for-text-classification-a-step-by-step-guide-with-code-examples-0dea8513bcf2
+      - Train BERT to classify text (and the text could be code)
+      - https://arxiv.org/abs/1905.05583
+- [roxana] llama3-70B
+  - good prompts
+  - false negatives are ok in our case: we will report on conservatives estimates of the different styles
+  - can we take inspiration from this, in order to document our prompts: https://sites.google.com/view/testgeneralizer/prompts/test-generalization?authuser=0
+  - good progress on the 'cleaning' of scd files
+- [benoit] first draft of a script to fetch data about each origin. For now, nb of commits, main contributor, readme files.
+- [nadia] working on getting consistent data for live/dead origins 
+- [benoit]
+  - push the 'array' version of the json file in the shared folder
+  - provide more examples of labeled p5.js pieces
+- [roxana]
+  - determine the natural language of the readme file
+  - test Claude to label a few files
+- [all] think about research questions for our study. we can document the RQs in overleaf
+
 2025.11.05
 - [nadia] investigate how to do efficient queries to GitHub. How many repos can we query in a reasonable time to get info such as nb of contributors, date of oldest/newest commit, etc. ?
 - [roxana] can we use chatgpt to build a labeled set of code files, which we then use for RAG+LLama?
