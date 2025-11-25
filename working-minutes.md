@@ -14,9 +14,11 @@
   - RQ1: get info about live / dead
   - RQ2
     - sample the live repos
+    - [yogya] consolidates the mining script and runs it on the sample
     - collect data about these repos (prog lang, natural lang, location, duration, etc.)
   - RQ3
     - sample the top users doing repos for art
+    - [roxana] re-run the to get the top 50 most prolific users in our dataset
     - analyse these repos
   - RQ4
     - get a set of js/html files
