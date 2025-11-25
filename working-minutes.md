@@ -20,6 +20,9 @@
     - analyse these repos
   - RQ4
     - get a set of js/html files
+    - [roxana] implement a script that mines all the origins that include p5.js or p5.min.js and filter the files for artwork
+      - how many files do we get?
+      - how many folders do we discard?
     - analyze them with an LLM
 
 2025.11.13
