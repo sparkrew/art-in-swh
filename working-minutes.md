@@ -1,3 +1,16 @@
+2025.11.25
+- decision for LLM-based analysis
+  - focus on p5 artworks
+  - focus on artworks that are inside a single file (either html or js), i.e., the file that includes the ```setup()``` function
+- we revise the classification to have process_sound/visual/text and synthesize_sound/visual/text
+- [rafaela] 2 hours ago calcul QC came back!
+  - the plan is to upload llama70B and more recent models
+- [roxana] will share her results with her 2nd PR !
+- [nadia] the analysis of dead/live repo urls is pending
+- [benoit] extended mining script with
+  - info about main contributor: location, bio
+  - info about the language of the readme and the bio
+
 2025.11.13
 - [rafaela] calcul QC sabotage ;(
   - https://qwen3lm.com/ might be better than llama
