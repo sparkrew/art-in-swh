@@ -10,6 +10,17 @@
 - [benoit] extended mining script with
   - info about main contributor: location, bio
   - info about the language of the readme and the bio
+- TODO, in order to answer the 'funnel' of research questions
+  - RQ1: get info about live / dead
+  - RQ2
+    - sample the live repos
+    - collect data about these repos (prog lang, natural lang, location, duration, etc.)
+  - RQ3
+    - sample the top users doing repos for art
+    - analyse these repos
+  - RQ4
+    - get a set of js/html files
+    - analyze them with an LLM
 
 2025.11.13
 - [rafaela] calcul QC sabotage ;(
