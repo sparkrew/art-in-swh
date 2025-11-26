@@ -1,14 +1,6 @@
 
 [
     {
-        "url":"url",
-        "classification":{
-            "material":["audio_file","image_file","text_file","synthesized_sound","synthesized_image","synthesized_text","randomness","interactions","other"],
-            "interaction":["human_interaction","computer_interaction","none"],
-            "outcome":["visual","auditory","physical","static","time-based"]
-        }
-    },
-    {
         "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Final%20Sound%20Project/sketch.js",
         "classification":{
             "material":["audio_file","synthesized_image","randomness","interactions"],
@@ -83,7 +75,7 @@
     {
         "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/8M/sketch.js",
         "classification":{
-            "material":["audio_file","image_file","synthesized_image","synthesized_text","randomness","interactions","other"],
+            "material":["audio_file","image_file","synthesized_image","synthesized_text","randomness","interactions"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","auditory","time-based"]
         }
