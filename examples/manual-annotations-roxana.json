@@ -1,0 +1,154 @@
+[
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/CreativityAssignment/sketch.js",
+    "classification":{
+        "material": ["randomness", "interaction"],
+        "interaction": ["none"],
+        "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Elqui/sketch.js",
+    "classification":{
+        "material": ["interactions"],
+        "interaction": ["human_interaction"],
+        "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Telar/sketch.js",
+    "classification": {
+    "material": ["randomness", "interaction", "synthesized_image"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Dreams/sketch.js",
+    "classification":{
+    "material": ["interaction", "synthesized_image"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Piano_Pedals/sketch.js",
+    "classification":{
+    "material": ["synthesized_sound"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based", "auditory"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/rats_remix_farm_party!/sketch.js",
+    "classification":{
+    "material": ["image_file", "audio_file", "synthesized_text"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based", "auditory"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Crazy_Christmas/sketch.js",
+    "classification":{
+    "material": ["image_file", "synthesized_image"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Nicanor_Parra/sketch.js",
+    "classification":{
+    "material": ["text_file", "randomness", "synthesized_image"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Strange_Things_Facemesh_Webcam/sketch.js",
+    "classification":{
+    "material": ["image_file", "synthesized_image", "randomness"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based"]
+    }
+},
+{
+    "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/8M/sketch.js",
+    "classification":{
+    "material": ["image_file", "audio_file", "text_file", "randomness"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based", "auditory"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Final%20Sound%20Project/sketch.js",
+    "classification":{
+    "material": ["audio_file", "synthesized_image", "randomness"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based", "auditory"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%201%20Drawing%20pt.2/sketch.js",
+    "classification":{
+    "material": ["synthesized_image"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%201%20Drawing/sketch.js",
+    "classification":{
+    "material": ["randomness", "synthesized_image"],
+    "interaction": ["none"],
+    "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%202%20Live%20Video%20Processing/sketch.js",
+    "classification": {
+    "material": ["synthesized_image"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%203%20Patterns/sketch.js",
+    "classification": {
+    "material": ["synthesized_image"],
+    "interaction": ["none"],
+    "outcome": ["visual","time-based"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%204%20Sound/sketch.js",
+    "classification": {
+    "material": ["audio_file", "synthesized_image"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based", "auditory"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%205%3A%20Sound%20pt.2/sketch.js",
+    "classification": {
+    "material": ["audio_file", "synthesized_image", "randomness"],
+    "interaction": ["human_interaction"],
+    "outcome": ["visual","time-based", "auditory"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%206%203D%20%26%20WEBGL/sketch%5B1%5D.js",
+    "classification": {
+    "material": ["image_file"],
+    "interaction": ["none"],
+    "outcome": ["visual","time-based"]
+    }
+},
+{
+    "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%207%20Text%20%26%20Poetry/sketch.js",
+    "classification": {
+    "material": ["text_file", "synthesized_text", "randomness"],
+    "interaction": ["none"],
+    "outcome": ["visual","time-based"]
+    }
+}
+]
