@@ -12,45 +12,44 @@ Why I have 'interactions' in material and 'static' in outcome?
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Elqui/sketch.js"
 
-In material I have: 'interactions' and he has 'synthesized_image','randomness', why?
-
-in outcome I have 'static' and he has 'time-based'
+missing=> material: 'synthesized_image', 'randomness', outcome: 'time-based'
+in_addition=> material: 'interactions',  outcome: 'static'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/CreativityAssignment/sketch.js"
 
-In material, I have "randomness", "interaction" and  He has "synthesized_image","synthesized_text","randomness"
+missing=> material: 'synthesized_image', 'synthesized_text', 
+in_addition=> material: 'interaction'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Dreams/sketch.js"
 
-I have 'interaction' and he has 'randomness'
+missing=> material: 'randomness'
+in_addition=> material: 'interaction'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Piano_Pedals/sketch.js"
 
-In materials I'm missing "synthesized_image","interactions"
+missing=> material: 'synthesized_image', 'interactions'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/rats_remix_farm_party!/sketch.js"
 
-In interaction I'm missing 'computer_interaction'
+missing=> interaction: 'computer_interaction'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Crazy_Christmas/sketch.js"
 
-In interaction, I'm missing 'computer_interaction'
+missing=> interaction: 'computer_interaction'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Nicanor_Parra/sketch.js"
 
-In material I'm missing 'synthesized_text', and instead I have 'randomness'
-
-In interaction I'm missing 'computer_interaction'
+missing=> material: 'synthesized_text', interaction: 'computer_interaction'
+in_addition=> material: 'randomness'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Strange_Things_Facemesh_Webcam/sketch.js"
 
-In material I have 'image_file' in addition
+missing=> material: 'image_file'
 
 - url: "https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/8M/sketch.js"
 
-In material I have "text_file" in addition, and I'm missing "synthesized_image","synthesized_text","interactions"
-
-In interaction I'm missing 'computer_interaction'
+missing=> material: 'synthesized_image','synthesized_text','interactions', interaction: 'computer_interaction'
+in_addition=> material: 'text_file'
 
 - url: "https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Final%20Sound%20Project/sketch.js"
 

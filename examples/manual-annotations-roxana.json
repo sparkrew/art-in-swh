@@ -1,7 +1,6 @@
 [
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/CreativityAssignment/sketch.js",
-    "title":"Creativity Assignment",
     "classification":{
         "material": ["randomness", "interaction"],
         "interaction": ["none"],
@@ -18,10 +17,11 @@
 },
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Telar/sketch.js",
-    "title":"Telar",
+    "classification": {
     "material": ["randomness", "interaction", "synthesized_image"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","static"]
+    }
 },
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Dreams/sketch.js",
