@@ -3,7 +3,7 @@
     {
         "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Final%20Sound%20Project/sketch.js",
         "classification":{
-            "material":["audio_file","synthesized_image","randomness","interactions"],
+            "material":["processed_audio","synthesized_image","randomness","interactions"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","auditory","time-based"]
         }
@@ -43,7 +43,7 @@
     {
         "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%204%20Sound/sketch.js",
         "classification":{
-            "material":["audio_file","synthesized_image","interactions"],
+            "material":["processed_audio","synthesized_image","interactions"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","auditory","time-based"]
         }
@@ -51,7 +51,7 @@
     {
         "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%205%3A%20Sound%20pt.2/sketch.js",
         "classification":{
-            "material":["audio_file","synthesized_image","interactions"],
+            "material":["processed_audio","synthesized_image","interactions"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","auditory","time-based"]
         }
@@ -59,7 +59,7 @@
     {
         "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%206%203D%20%26%20WEBGL/sketch%5B1%5D.js",
         "classification":{
-            "material":["image_file","synthesized_image"],
+            "material":["processed_image","synthesized_image"],
             "interaction":["none"],
             "outcome":["visual","time-based"]
         }
@@ -75,7 +75,7 @@
     {
         "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/8M/sketch.js",
         "classification":{
-            "material":["audio_file","image_file","synthesized_image","synthesized_text","randomness","interactions"],
+            "material":["processed_audio","processed_image","synthesized_image","synthesized_text","randomness","interactions"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","auditory","time-based"]
         }
@@ -83,7 +83,7 @@
     {
         "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Crazy_Christmas/sketch.js",
         "classification":{
-            "material":["image_file","synthesized_image"],
+            "material":["processed_image","synthesized_image"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","time-based"]
         }
@@ -115,7 +115,7 @@
     {
         "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Nicanor_Parra/sketch.js",
         "classification":{
-            "material":["text_file","synthesized_image","synthesized_text"],
+            "material":["processed_text","synthesized_image","synthesized_text"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","time-based"]
         }
@@ -147,7 +147,7 @@
     {
         "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/rats_remix_farm_party!/sketch.js",
         "classification":{
-            "material":["audio_file","image_file","synthesized_text"],
+            "material":["processed_audio","processed_image","synthesized_text"],
             "interaction":["human_interaction","computer_interaction"],
             "outcome":["visual","auditory","time-based"]
         }

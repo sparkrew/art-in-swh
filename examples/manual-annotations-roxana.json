@@ -42,7 +42,7 @@
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/rats_remix_farm_party!/sketch.js",
     "classification":{
-    "material": ["image_file", "audio_file", "synthesized_text"],
+    "material": ["processed_image", "processed_audio", "synthesized_text"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","time-based", "auditory"]
     }
@@ -50,7 +50,7 @@
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Crazy_Christmas/sketch.js",
     "classification":{
-    "material": ["image_file", "synthesized_image"],
+    "material": ["processed_image", "synthesized_image"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","time-based"]
     }
@@ -58,7 +58,7 @@
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Nicanor_Parra/sketch.js",
     "classification":{
-    "material": ["text_file", "randomness", "synthesized_image"],
+    "material": ["processed_text", "randomness", "synthesized_image"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","static"]
     }
@@ -66,7 +66,7 @@
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/Strange_Things_Facemesh_Webcam/sketch.js",
     "classification":{
-    "material": ["image_file", "synthesized_image", "randomness"],
+    "material": ["processed_image", "synthesized_image", "randomness"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","time-based"]
     }
@@ -74,7 +74,7 @@
 {
     "url":"https://github.com/barbaraim/Creative-Coding-Portfolio/blob/main/8M/sketch.js",
     "classification":{
-    "material": ["image_file", "audio_file", "text_file", "randomness"],
+    "material": ["processed_image", "processed_audio", "processed_text", "randomness"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","time-based", "auditory"]
     }
@@ -82,7 +82,7 @@
 {
     "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Final%20Sound%20Project/sketch.js",
     "classification":{
-    "material": ["audio_file", "synthesized_image", "randomness"],
+    "material": ["processed_audio", "synthesized_image", "randomness"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","time-based", "auditory"]
     }
@@ -122,7 +122,7 @@
 {
     "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%204%20Sound/sketch.js",
     "classification": {
-    "material": ["audio_file", "synthesized_image"],
+    "material": ["processed_audio", "synthesized_image"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","time-based", "auditory"]
     }
@@ -130,7 +130,7 @@
 {
     "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%205%3A%20Sound%20pt.2/sketch.js",
     "classification": {
-    "material": ["audio_file", "synthesized_image", "randomness"],
+    "material": ["processed_audio", "synthesized_image", "randomness"],
     "interaction": ["human_interaction"],
     "outcome": ["visual","time-based", "auditory"]
     }
@@ -138,7 +138,7 @@
 {
     "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%206%203D%20%26%20WEBGL/sketch%5B1%5D.js",
     "classification": {
-    "material": ["image_file"],
+    "material": ["processed_image"],
     "interaction": ["none"],
     "outcome": ["visual","time-based"]
     }
@@ -146,7 +146,7 @@
 {
     "url":"https://github.com/cleonc13/Creative-Coding-Projects/blob/main/Week%207%20Text%20%26%20Poetry/sketch.js",
     "classification": {
-    "material": ["text_file", "synthesized_text", "randomness"],
+    "material": ["processed_text", "synthesized_text", "randomness"],
     "interaction": ["none"],
     "outcome": ["visual","time-based"]
     }
