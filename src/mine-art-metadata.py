@@ -165,8 +165,8 @@ def save_repos_data(allrepos):
         userprofile = get_user_info(main_contributor)
         profile=dict()
         if len(userprofile)!=0:
-            profile["location"]=userprofile["location"]
-            profile["bio"]=userprofile["bio"]
+            profile["location"]=userprofile["location"] if userprofile["location"]!="" else "none"
+            profile["bio"]=userprofile["bio"] if userprofile["bio"]!="" else "none"
         else:
             profile["location"]="none"
             profile["bio"]="none"
