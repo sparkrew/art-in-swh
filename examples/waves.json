@@ -1,0 +1,5 @@
+{
+    "entities": ["synthesized image"],
+    "interaction": ["none"],
+    "outcome": ["visual","static"]
+}

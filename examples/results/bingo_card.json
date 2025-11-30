@@ -1,0 +1,15 @@
+{
+  "entities": [
+    "audio file",
+    "image"
+  ],
+  "interactions": [
+    "human",
+    "remote data"
+  ],
+  "outcomes": [
+    "visual",
+    "physical",
+    "time-based"
+  ]
+}

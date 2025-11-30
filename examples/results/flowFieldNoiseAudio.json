@@ -1,0 +1,13 @@
+{
+  "entities": [
+    "audio file",
+    "sound",
+    "randomness"
+  ],
+  "interactions": [
+    "human"
+  ],
+  "outcomes": [
+    "auditory"
+  ]
+}
