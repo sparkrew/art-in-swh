@@ -1,0 +1,170 @@
+[
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/blob_template/sketch.js",
+    "classification":{
+        "material": ["synthesized_image","synthesized_text","randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/HouCoder/Creative-Coding/blob/master/perlinNoise2D/sketch.js",
+    "classification":{
+        "material": ["synthesized_image","randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/HouCoder/Creative-Coding/blob/master/star/sketch.js",
+    "classification":{
+        "material": ["synthesized_image"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/circular_blazes/sketch.js",
+    "classification":{
+        "material": ["synthesized_image","randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/fire_vortex/sketch.js",
+    "classification":{
+        "material": ["synthesized_image","randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/glitch/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "processed_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/watercolor_paint/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/HouCoder/Creative-Coding/blob/master/vector_perlin_polarC/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/cave_vision/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/single_blol_template/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/HouCoder/Creative-Coding/blob/master/portfolioWeb/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["human_interaction"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/HouCoder/Creative-Coding/blob/master/random_circle_no_overlap/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/blob_petals/sketch.js",
+    "classification":{
+        "material": ["synthesized_image"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/particle_attraction/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["human_interaction"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/snowfall/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/HouCoder/Creative-Coding/blob/master/blobby_007/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/sine_cosine/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/hypnotic_spheres/sketch.js",
+    "classification":{
+        "material": ["synthesized_image"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/noise_vortex/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","static"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/lines_spheres/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+},
+{
+    "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/snowfall/sketch.js",
+    "classification":{
+        "material": ["synthesized_image", "randomness"],
+        "interaction": ["none"],
+        "outcome": ["visual","time_based"]
+    }
+}
+]
