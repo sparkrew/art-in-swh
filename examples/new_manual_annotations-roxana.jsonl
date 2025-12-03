@@ -2,7 +2,7 @@
 {
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/blob_template/sketch.js",
     "classification":{
-        "material": ["synthesized_image"],
+        "material": ["synthesized_image","synthesized_text","randomness"],
         "interaction": ["none"],
         "outcome": ["visual","static"]
     }
@@ -10,7 +10,7 @@
 {
     "url":"https://github.com/HouCoder/Creative-Coding/blob/master/perlinNoise2D/sketch.js",
     "classification":{
-        "material": ["synthesized_image"],
+        "material": ["synthesized_image","randomness"],
         "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
@@ -26,7 +26,7 @@
 {
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/circular_blazes/sketch.js",
     "classification":{
-        "material": ["synthesized_image"],
+        "material": ["synthesized_image","randomness"],
         "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
@@ -34,7 +34,7 @@
 {
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/fire_vortex/sketch.js",
     "classification":{
-        "material": ["synthesized_image"],
+        "material": ["synthesized_image","randomness"],
         "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
@@ -66,7 +66,7 @@
 {
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/cave_vision/sketch.js",
     "classification":{
-        "material": ["synthesized_image"],
+        "material": ["synthesized_image", "randomness"],
         "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
@@ -122,7 +122,7 @@
 {
     "url":"https://github.com/HouCoder/Creative-Coding/blob/master/blobby_007/sketch.js",
     "classification":{
-        "material": ["synthesized_image"],
+        "material": ["synthesized_image", "randomness"],
         "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
@@ -139,14 +139,14 @@
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/hypnotic_spheres/sketch.js",
     "classification":{
         "material": ["synthesized_image"],
-        "interaction": ["human_interaction"],
+        "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
 },
 {
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/noise_vortex/sketch.js",
     "classification":{
-        "material": ["synthesized_image", "random"],
+        "material": ["synthesized_image", "randomness"],
         "interaction": ["none"],
         "outcome": ["visual","static"]
     }
@@ -155,7 +155,7 @@
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/lines_spheres/sketch.js",
     "classification":{
         "material": ["synthesized_image", "randomness"],
-        "interaction": ["human_interaction"],
+        "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
 },
@@ -163,7 +163,7 @@
     "url":"https://github.com/Abhi-Gautam/Creative-Coding/blob/master/snowfall/sketch.js",
     "classification":{
         "material": ["synthesized_image", "randomness"],
-        "interaction": ["human_interaction"],
+        "interaction": ["none"],
         "outcome": ["visual","time_based"]
     }
 }
