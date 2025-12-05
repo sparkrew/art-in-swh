@@ -1,9 +1,1 @@
-{
-  "entities": [
-    "audio file"
-  ],
-  "interactions": [
-    "human"
-  ],
-  "outcomes": []
-}
+{"entities": ["synthesized image", "randomness", "processed text"], "interaction": ["none"], "outcome": ["visual", "static"]}

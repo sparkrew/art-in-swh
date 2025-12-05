@@ -1,14 +1,1 @@
-{
-  "entities": [
-    "audio file",
-    "image"
-  ],
-  "interactions": [
-    "human",
-    "web API"
-  ],
-  "outcomes": [
-    "visual",
-    "time-based"
-  ]
-}
+{"entities": ["synthesized image", "randomness"], "interaction": ["none"], "outcome": ["visual", "static"]}

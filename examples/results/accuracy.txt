@@ -1,0 +1,4 @@
+overall: 0.111111
+entities: 0.277778
+interaction: 0.555556
+outcome: 0.833333

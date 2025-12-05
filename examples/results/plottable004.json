@@ -1,7 +1,1 @@
-{
-  "entities": [],
-  "interactions": [
-    "human"
-  ],
-  "outcomes": []
-}
+{"entities": ["synthesized image", "randomness", "interactions"], "interaction": ["human interaction"], "outcome": ["visual", "static"]}

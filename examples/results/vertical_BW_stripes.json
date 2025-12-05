@@ -1,12 +1,1 @@
-{
-  "entities": [
-    "audio file",
-    "image"
-  ],
-  "interactions": [
-    "human"
-  ],
-  "outcomes": [
-    "visual"
-  ]
-}
+{"entities": ["synthesized image", "interactions"], "interaction": ["human interaction"], "outcome": ["visual", "time-based"]}
