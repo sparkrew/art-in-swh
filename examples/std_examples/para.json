@@ -1,0 +1,5 @@
+{
+  "entities": ["processed_text", "synthesized_image", "randomness"],
+  "interaction": ["computer_interaction"],
+  "outcome": ["visual", "time-based"]
+}
