@@ -3,8 +3,8 @@
 .ipynb_checkpoints/
 .env
 sandbox/
-
 *.pyc
 .DS_Store
 *.pdf
 *.ndjson
+jobs/
