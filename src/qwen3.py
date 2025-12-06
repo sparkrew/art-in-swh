@@ -1,5 +1,6 @@
 import os
 import json
+import yaml
 from openai import OpenAI
 from collections import Counter
 import matplotlib.pyplot as plt
@@ -47,12 +48,18 @@ def read_file_content(file_path):
         return f.read()
 
 
-def get_file_prediction(file_name, src_content):
+def get_file_prediction(prompt_template, file_name, src_content, model_config):
     """
     Given a txt string of a file, generate its labels.
     """
-    user_prompt = f"{PROMPT_TEMPLATE}\n ```\n{src_content}\n```"
-    model_output = query_vllm(user_prompt)
+    user_prompt = f"{prompt_template}\n ```\n{src_content}\n```"
+    model_output = query_vllm(
+        user_prompt=user_prompt,
+        model=model_config["model_name"],
+        system_prompt=model_config["system_prompt"],
+        max_tokens=model_config["max_tokens"],
+        temperature=model_config["temperature"]
+    )
     try:
         result = json.loads(model_output)
     except json.JSONDecodeError:
@@ -66,25 +73,28 @@ def export_json(filepath, content):
         json.dump(content, f)
         
 
-def process_files(examples_dir, batch_processing=False):
+def process_files(prompt_template, src_dir, output_dir, model_config, batch_processing=False):
     """
     Process all source files in examples directory
 
     args:
-        examples_dir (str): file path with the src files
+        src_dir (str): file path with the src files
+        output_dir (str): file path where predictions will be saved
+        model_config (dict): model configuration from config file
         batch_processing (bool): will control if exports 1 json per file or multiple jsons. NotImplementedYet.
     """
-    src_files = list_src_files(examples_dir)
+    src_files = list_src_files(src_dir)
+    os.makedirs(output_dir, exist_ok=True)
 
     for file_name in src_files:
         
-        file_path = os.path.join(examples_dir, file_name)
+        file_path = os.path.join(src_dir, file_name)
         src_content = read_file_content(file_path)
-        predicted_labels = get_file_prediction(file_path, src_content)
+        predicted_labels = get_file_prediction(prompt_template, file_path, src_content, model_config)
 
         # Export one json per src file
         file_name = "".join(file_name.split(".")[:-1]) + ".json"
-        output_file_path = os.path.join(examples_dir + "/results" , file_name)  
+        output_file_path = os.path.join(output_dir, file_name)  
         export_json(output_file_path, predicted_labels)
 
         # break
@@ -113,17 +123,10 @@ def compute_label_accuracy(true_dir, pred_dir):
         with open(pred_path) as f:
             pred_labels = json.load(f)
 
-        all_ok = True
         for k in keys:
             total[k] += 1
             if set(true_labels.get(k, [])) == set(pred_labels.get(k, [])):
                 correct[k] += 1
-            else:
-                all_ok = False
-
-        overall_total += 1
-        if all_ok:
-            overall_correct += 1
 
     acc = {}
     for k in keys:
@@ -203,9 +206,10 @@ if __name__ == "__main__":
     # =======================
     model = "qwen"
     config_mode = "examples"
+    prompt_template = PROMPT_2
     
     with open("config.yml", "r") as f:
-        configs = json.loads(f.read())
+        configs = yaml.safe_load(f)
     
     # Global vars
     CLIENT = OpenAI(
@@ -215,18 +219,22 @@ if __name__ == "__main__":
     # =======================
     
     print("Processing files...")
-    results = process_files(configs[model]["src_path"])
-    print("\n", results)
+    process_files(
+        prompt_template=prompt_template,
+        src_dir=configs[config_mode]["src_path"],
+        output_dir=configs[config_mode]["predicted_labels_path"],
+        model_config=configs[model]
+    )
     
     acc = compute_and_save_label_accuracy(
-        true_dir=configs[model]["true_labels_path"],
-        pred_dir=configs[model]["predicted_labels_path"],
-        acc_report_path=configs[model]["acc_report_path"],
+        true_dir=configs[config_mode]["true_labels_path"],
+        pred_dir=configs[config_mode]["predicted_labels_path"],
+        acc_report_path=os.path.join(configs[config_mode]["report_folder_path"], "accuracy_report.txt"),
     )
     print("Accuracy:", acc)
 
     plot_label_distribution(
-        true_dir=configs[model]["true_labels_path"],
-        pred_dir=configs[model]["predicted_labels_path"],
-        acc_report_path=configs[model]["acc_report_path"],
+        true_dir=configs[config_mode]["true_labels_path"],
+        pred_dir=configs[config_mode]["predicted_labels_path"],
+        label_dist_report_path=os.path.join(configs[config_mode]["report_folder_path"], "label_distribution.png"),
     )
