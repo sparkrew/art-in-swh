@@ -1,5 +1,6 @@
 #!/bin/bash
 # start-llm.sh
+# make sure to be in the repo's root folder to start
 
 # fail fast if something goes wrong
 set -e

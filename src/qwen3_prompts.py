@@ -36,7 +36,7 @@ Return ONLY a valid JSON object, no extra text, in this exact schema:
   "interaction": [
     "human_interaction" | "computer_interaction" | "none"
   ],
-  "interaction": [
+  "outcome": [
     "visual" | "auditory" | "physical",
     "static" | "time-based"
   ]

@@ -5,16 +5,7 @@ from collections import Counter
 import matplotlib.pyplot as plt
 from qwen3_prompts import *
 
-
-# Global vars
-CLIENT = OpenAI(
-    base_url="http://localhost:8000/v1",
-    api_key=""
-)
-
-PROMPT_TEMPLATE = PROMPT_2
-
-def chat_with_vllm(
+def query_vllm(
     user_prompt: str,
     model: str = "qwen3-coder-30b-fp8",
     system_prompt: str = "You are a helpful coding assistant.",
@@ -61,7 +52,7 @@ def get_file_prediction(file_name, src_content):
     Given a txt string of a file, generate its labels.
     """
     user_prompt = f"{PROMPT_TEMPLATE}\n ```\n{src_content}\n```"
-    model_output = chat_with_vllm(user_prompt)
+    model_output = query_vllm(user_prompt)
     try:
         result = json.loads(model_output)
     except json.JSONDecodeError:
@@ -99,7 +90,7 @@ def process_files(examples_dir, batch_processing=False):
         # break
 
 
-def compute_label_accuracy(true_dir=".", pred_dir="results"):
+def compute_label_accuracy(true_dir, pred_dir):
 
     keys = ["entities", "interaction", "outcome"]
 
@@ -142,25 +133,22 @@ def compute_label_accuracy(true_dir=".", pred_dir="results"):
 
 
 def compute_and_save_label_accuracy(
-    true_dir=".", pred_dir="results", out_filename="accuracy.txt"):
+    true_dir, pred_dir, acc_report_path):
 
     os.makedirs(pred_dir, exist_ok=True)
     acc = compute_label_accuracy(true_dir=true_dir, pred_dir=pred_dir)
-    out_path = os.path.join(pred_dir, out_filename)
 
-    with open(out_path, "w") as f:
+    with open(acc_report_path, "w") as f:
         for key, value in acc.items():
             f.write(f"{key}: {value:.6f}\n")
 
     return acc
 
 
-
-def plot_label_distribution(true_dir=".", pred_dir="results",
-                            out_filename="label_distribution.png"):
+def plot_label_distribution(true_dir, pred_dir, label_dist_report_path):
     """
     Computes label frequencies (true vs predicted), plots them,
-    and saves the figure to pred_dir/out_filename.
+    and saves the figure to label_dist_report_path.
     """
     os.makedirs(pred_dir, exist_ok=True)
 
@@ -205,25 +193,40 @@ def plot_label_distribution(true_dir=".", pred_dir="results",
     plt.legend()
     plt.tight_layout()
 
-    out_path = os.path.join(pred_dir, out_filename)
-    plt.savefig(out_path, dpi=150)
+    plt.savefig(label_dist_report_path, dpi=150)
     plt.close()
     
 
 if __name__ == "__main__":
-    examples_dir = "examples"
+    # =======================
+    # Configs
+    # =======================
+    model = "qwen"
+    config_mode = "examples"
+    
+    with open("config.yml", "r") as f:
+        configs = json.loads(f.read())
+    
+    # Global vars
+    CLIENT = OpenAI(
+        base_url=configs[model]["base_url"],
+        api_key="" # no api key because we're running our own model :)
+    )    
+    # =======================
     
     print("Processing files...")
-    results = process_files(examples_dir)
+    results = process_files(configs[model]["src_path"])
     print("\n", results)
     
     acc = compute_and_save_label_accuracy(
-        true_dir=examples_dir,
-        pred_dir=examples_dir+"/results"
+        true_dir=configs[model]["true_labels_path"],
+        pred_dir=configs[model]["predicted_labels_path"],
+        acc_report_path=configs[model]["acc_report_path"],
     )
     print("Accuracy:", acc)
 
     plot_label_distribution(
-        true_dir=examples_dir,
-        pred_dir=examples_dir+"/results"
+        true_dir=configs[model]["true_labels_path"],
+        pred_dir=configs[model]["predicted_labels_path"],
+        acc_report_path=configs[model]["acc_report_path"],
     )
