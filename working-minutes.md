@@ -1,3 +1,8 @@
+2025.12.11
+- we meet at Rafaela's :)
+- [nadia] which links are live?
+  -  
+
 2025.11.25
 - decision for LLM-based analysis
   - focus on p5 artworks
