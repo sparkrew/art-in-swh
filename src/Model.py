@@ -4,7 +4,6 @@ import yaml
 from openai import OpenAI
 from collections import Counter
 import matplotlib.pyplot as plt
-from qwen3_prompts import *
 import os
 import json
 from sklearn.preprocessing import MultiLabelBinarizer
@@ -17,16 +16,14 @@ from sklearn.metrics import (
 
 class LLM_Model():
     
-    def __init__(model_name, base_url="http://localhost:8000/v1", system_prompt):
+    def __init__(self, model_name, base_url="http://localhost:8000/v1", system_prompt=""):
         self.model_name = model_name
         self.base_url = base_url
         self.system_prompt = system_prompt
-
-    def _set_client(self):
         self.client = OpenAI(
-        base_url=self.base_url,
-        api_key="" # no api key because we're running our own model :)
-    )
+            base_url=self.base_url,
+            api_key=""  # no api key because we're running our own model :)
+        )
 
     def _validate_response(self):
         """

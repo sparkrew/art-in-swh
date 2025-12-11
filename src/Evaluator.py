@@ -1,4 +1,5 @@
 import os
+import json
 from collections import Counter
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import MultiLabelBinarizer
@@ -10,10 +11,11 @@ from sklearn.metrics import (
 
 class Evaluator:
     
-    def __init__(true_dir, pred_dir, report_path, penalize_missing_preds=False):
+    def __init__(self, true_dir, pred_dir, report_path, config_mode='examples', penalize_missing_preds=False):
         self.true_dir = true_dir
         self.pred_dir = pred_dir
         self.report_path = report_path
+        self.config_mode = config_mode
         self.penalize_missing_preds = penalize_missing_preds
     
         self.true_files = [
@@ -44,8 +46,8 @@ class Evaluator:
             y_pred_labels = []
 
             for fname in self.true_files:
-                true_path = os.path.join(true_dir, fname)
-                pred_path = os.path.join(pred_dir, fname)
+                true_path = os.path.join(self.true_dir, fname)
+                pred_path = os.path.join(self.pred_dir, fname)
 
                 with open(true_path, "r") as f:
                     true_labels = json.load(f)
@@ -113,20 +115,17 @@ class Evaluator:
         """
         Wrapper around compute_label_metrics that saves results to a text file.
         """
-        metrics = self.compute_label_metrics(
-            true_dir=self.true_dir,
-            pred_dir=self.pred_dir,
-            penalize_missing_preds=self.penalize_missing_preds,
-        )
+        metrics = self._compute_label_metrics()
 
-        with open(report_path, "w") as f:
+        with open(self.report_path, "w") as f:
             for key, m in metrics.items():
                 f.write(f"[{key}]\n")
                 for metric_name, value in m.items():
                     f.write(f"{metric_name}: {value:.6f}\n")
                 f.write("\n")
 
-        self.metrics
+        self.metrics = metrics
+        return metrics
 
 
     def _plot_label_distribution(self, label_dist_report_path):
@@ -176,10 +175,11 @@ class Evaluator:
         plt.savefig(label_dist_report_path, dpi=150)    
     
     
-    def export_reports(self):
+    def export_reports(self, label_dist_report_path=None):
         if self.config_mode == 'examples':
             self._compute_and_save_label_metrics_sklearn()
-            self._plot_label_distribution()
+            if label_dist_report_path:
+                self._plot_label_distribution(label_dist_report_path)
         
         elif self.config_mode == 'artworks':
             # what do we wanna evaluate when predicting labels for the artworks?

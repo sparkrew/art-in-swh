@@ -5,6 +5,7 @@
 chosen_config:
     config_mode: 'examples' # the idea is that we'll be able to reuse this code afterwards
     model: 'qwen'
+    prompt_version: 'PROMPT_1'  # 'PROMPT_1' or 'PROMPT_2' for now
 
 # LLM
 qwen:

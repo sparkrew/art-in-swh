@@ -1,7 +1,12 @@
 import os
 import json
 import yaml
-from qwen3_prompts import *
+from Model import LLM_Model
+from Evaluator import Evaluator
+from Prompts import *
+
+def get_prompt_template(prompt_version):
+    return globals()[prompt_version].template
 
 
 def list_src_files(dir):
@@ -13,7 +18,7 @@ def list_src_files(dir):
     return files
 
 
-def process_files(prompt_template, src_dir, output_dir, model, batch_processing=False):
+def process_files(prompt_template, src_dir, output_dir, model):
     """
     Process all source files in examples directory
     
@@ -30,10 +35,10 @@ def process_files(prompt_template, src_dir, output_dir, model, batch_processing=
             art_src_code = f.read()
             
         # Get labels
-        predicted_labels = LLM_Model.get_labels(
+        predicted_labels = model.get_labels(
             prompt_template=prompt_template, 
             art_src_code=art_src_code, 
-            system_prompt=system_prompt
+            system_prompt=model.system_prompt
             )
 
         # Export one json per src file
@@ -56,6 +61,10 @@ if __name__ == "__main__":
 
     config_mode = configs["chosen_config"]['config_mode']
     model = configs["chosen_config"]["model"]
+    prompt_version = configs["chosen_config"]["prompt_version"]
+    
+    # Get the prompt template object
+    prompt_template = get_prompt_template(prompt_version)
     
     # Imports
     true_dir = configs[config_mode]["true_labels_path"]
@@ -67,8 +76,8 @@ if __name__ == "__main__":
     
     # Global vars
     llm_model = LLM_Model(
-        model_name=configs[model]['config_mode']
-        base_url=configs[model]['base_url']
+        model_name=configs[model]['config_mode'],
+        base_url=configs[model]['base_url'],
         system_prompt=configs[model]['system_prompt']
     )
     
@@ -91,5 +100,5 @@ if __name__ == "__main__":
     
     # Export
     print("Evaluating predictions...")
-    evaluator.export_reports()
+    evaluator.export_reports(label_dist_report_path=label_dist_report_path)
     print("Final Metrics:", evaluator.metrics)
