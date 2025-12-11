@@ -24,7 +24,7 @@ In the login node:
 2. Create venv
 3. Install requirements.txt
 
-Open a session in Rorqual's compute node with the NVIDIA_H100_80GB_HBM3_2G.20GB GPU.
+To use the QWEN3 model, open a session in Rorqual's compute node with the NVIDIA_H100_80GB_HBM3_3G.40GB GPU.
 
 If you open a Jupyter server, navigate to the repo's root folder.
 

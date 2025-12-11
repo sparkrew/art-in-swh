@@ -1,11 +1,12 @@
 from dataclasses import dataclass
+from typing import Optional
 
 @dataclass
 class PromptTemplate:
     name: str
     template: str
-    description = None
-    version = None
+    version: Optional[str] = None
+    description: Optional[str] = None
 
 # Then define your prompts
 PROMPT_1 = PromptTemplate(

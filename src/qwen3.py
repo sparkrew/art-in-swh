@@ -76,7 +76,7 @@ if __name__ == "__main__":
     
     # Global vars
     llm_model = LLM_Model(
-        model_name=configs[model]['config_mode'],
+        model_name=configs[model]['model_name'],
         base_url=configs[model]['base_url'],
         system_prompt=configs[model]['system_prompt']
     )

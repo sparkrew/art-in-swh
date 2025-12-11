@@ -1,3 +1,4 @@
+import json
 from openai import OpenAI
 
 class LLM_Model():
@@ -25,7 +26,7 @@ class LLM_Model():
         """
         user_prompt = f"{prompt_template}\n ```\n{art_src_code}\n```"
 
-        return self.client.chat.completions.create(
+        response = self.client.chat.completions.create(
             model=self.model_name,
             messages=[
                 {"role": "system", "content": system_prompt},
@@ -35,4 +36,7 @@ class LLM_Model():
             temperature=temperature,
         ).choices[0].message.content
         
+        # Parse JSON response
+        predicted_labels = json.loads(response)
         
+        return predicted_labels
