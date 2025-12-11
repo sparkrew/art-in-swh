@@ -1,5 +1,0 @@
-{
-  "entities": ["synthesized_image", "synthesized_text", "randomness"],
-  "interaction": ["none"],
-  "outcome": ["visual", "static"]
-}

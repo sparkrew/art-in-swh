@@ -1,5 +1,0 @@
-{
-  "entities": ["processed_audio", "synthesized_image", "randomness", "interactions"],
-  "interaction": ["human_interaction", "computer_interaction"],
-  "outcome": ["visual", "auditory", "time-based"]
-}

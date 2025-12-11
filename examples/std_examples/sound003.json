@@ -1,5 +1,0 @@
-{
-  "material": ["synthesized_sound", "synthesized_image", "interactions"],
-  "interaction": ["human_interaction"],
-  "outcome": ["auditory", "visual", "time-based"]
-}
