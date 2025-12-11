@@ -2,10 +2,14 @@
 # Projects Configs #
 #==================#
 
+chosen_config:
+    config_mode: 'examples' # the idea is that we'll be able to reuse this code afterwards
+    model: 'qwen'
+
 # LLM
 qwen:
   model_name: "qwen3-coder-30b-fp8"
-  max_tokens: 123
+  max_tokens: 124
   temperature: 0.1
   system_prompt: "You are a helpful coding assistant."
   base_url: "http://localhost:8000/v1"
@@ -20,8 +24,9 @@ examples:
   report_folder_path: "../links/projects/def-baudry/shared/data/examples/reports"
 
 # SWH Art works
-artworks:
-  src_path: "../links/projects/def-baudry/shared/data/artworks/src"
-  predicted_labels_path: "../links/projects/def-baudry/shared/data/artworks/predicted_labels"
-  # Evaluation
-  report_folder_path: "../links/projects/def-baudry/shared/data/artworks/reports"
+# The idea is that we will 
+# artworks:
+#   src_path: "../links/projects/def-baudry/shared/data/artworks/src"
+#   predicted_labels_path: "../links/projects/def-baudry/shared/data/artworks/predicted_labels"
+#   # Evaluation
+#   report_folder_path: "../links/projects/def-baudry/shared/data/artworks/reports"
