@@ -1,0 +1,5 @@
+{
+    "entities": ["synthesized image","interactions"],
+    "interaction": ["human"],
+    "outcome": ["visual","time-based"]
+}
