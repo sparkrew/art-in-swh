@@ -1,7 +1,13 @@
 2025.12.11
 - we meet at Rafaela's :)
 - [nadia] which links are live?
-  -  
+  - ongoing
+- [lena] revise classification and definitions
+- [roxana] dataset of 74 artworks manually labelled
+- [yogya and benoit] work on scripts
+  - to fetch js files that us p5
+  - to fetch metadata about a sample of the origins
+- [rafaela] builds the infrastructure for the LLM-based pipeline
 
 2025.11.25
 - decision for LLM-based analysis
