@@ -1,6 +1,6 @@
 {
     "entities": ["geometric","line", "circle"],
-    "processes": [],
-    "interaction": ["mouse"],
+    "processes": ["randomness"],
+    "interaction": ["computer_interaction"],
     "outcome": ["visual", "static"]
 }

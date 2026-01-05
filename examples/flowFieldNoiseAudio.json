@@ -1,6 +1,6 @@
 {
     "entities": ["perlin noise","flow field"],
-    "processes": ["randomness"],
-    "interaction": ["computer interaction"],
-    "outcome": ["visual","time-based", "auditory"]
+    "processes": ["processed_audio"],
+    "interaction": ["computer_interaction"],
+    "outcome": ["visual","time-based"]
 }
