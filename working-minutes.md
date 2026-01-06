@@ -1,3 +1,25 @@
+2026.01.06
+- [nadia] 1.6M origins in a single file, with live / dead status
+  - super good.
+  - extract the list of origins that are dead in a dead_origins.json that we will share with Stefano
+  - for RQ1
+    - dead / alive
+    - where is the code hosted: github, gitlab and others
+    - distribution of signals
+      - how many did we find with topics / file extensions
+      - distribution of origins per file extension
+- [yogya] extract 10% of live + github-hosted origins for RQ2
+  - [lena] look into the location / readme to think about ways of discussing the diversity of geographical/cultural origin of contributors
+- [yogya] extract 1% of live+github+p5 for RQ3
+  - [roxana] refine the classification, esp. computer interaction
+  - [lena] art work, art code, rendering, etc.: can we refer to the art literature to define these different concepts?
+  - [roxana, rafaela] tests are ongoing
+  - [rafaela] discuss with the group to distribute the different issues related to the ML pipeline
+  - [rafaela, roxana]: document the different steps of ground-truth construction, testing, refining the classification, etc. in order to document the methodology and discuss the quality of the ML-based process
+- [benoit] check the presence of origins that should be the all_origins (e.g., bbaudry/sw-art)
+- [yogya] get  the 42 top artists, with all their origins 
+
+
 2025.12.11
 - we meet at Rafaela's :)
 - [nadia] which links are live?
