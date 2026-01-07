@@ -1,6 +1,6 @@
 {
     "entities": ["geometric","line"],
-    "processes": ["rotation", "randomness"],
-    "interaction": ["none"],
-    "outcome": ["visual","move"]
+    "processes": ["randomness"],
+    "interaction": ["computer_interaction"],
+    "outcome": ["visual","time-based"]
 }
