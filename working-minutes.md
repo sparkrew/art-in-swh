@@ -9,7 +9,7 @@
       - how many did we find with topics / file extensions
       - distribution of origins per file extension
 - [yogya] extract 10% of live + github-hosted origins for RQ2
-  - [lena] look into the location / readme to think about ways of discussing the diversity of geographical/cultural origin of contributors
+  - [lena] look into the location /bio / readme to think about ways of discussing the diversity of geographical/cultural origin of contributors, example data available in [this sample file](./src/sample-rq2-data.json)
 - [yogya] extract 1% of live+github+p5 for RQ3
   - [roxana] refine the classification, esp. computer interaction
   - [lena] art work, art code, rendering, etc.: can we refer to the art literature to define these different concepts?
