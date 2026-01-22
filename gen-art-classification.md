@@ -8,16 +8,10 @@ In their [A framework for understanding generative art](https://www.tandfonline.
   - synthesized_image // the code synthesizes, generates new visual elements, as part of the artwork
   - synthesized_text  // the code synthesizes, generates new textual or typographical elements, as part of the artwork
   - randomness // the code uses randomness in the syntehsis or processing of audio or visual or textual elements, as part of the artwork
-  - interactions // the code defines interactions between audio or visual or textual elements, as part of the artwork
-  - other 
-- Environmental interaction
-  - human_interaction (for example through mouse, midi controller, microphone, keyboard, camera, motion sensor, lidar, etc.)
-  - computer_interaction (for example through data file, data stream, remote data, web API, etc.)
-  - none
+- Interaction: yes or no
 - Sensory outcomes
   - visual 
   - auditory
-  - physical
   - static or time-based [one of these values is mandatory for this characteristic]
 
 We also ask the LLM: Is this piece reusing existing algorithm ?
