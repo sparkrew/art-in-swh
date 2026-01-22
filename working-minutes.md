@@ -7,7 +7,16 @@
 - [RQ2] 155K origins
   - collect locations
   - collect language
-- [RQ3] p5.js   
+- [RQ3] p5.js files
+  - html + p5
+  - refining classification
+    - process is the code
+    - output is the art
+    - characterize the generative art practices / processes
+    - characteristics that are understandable from the code only and amenable to automatic inference by an LLM
+    - [roxana] update labels on manually annotated files for art, then run the calcul-QC pipeline to check its accuracy
+    - [rafaela] working on output validation and on making the code paralell 
+
 2026.01.06
 - [nadia] 1.6M origins in a single file, with live / dead status
   - super good.
