@@ -1,3 +1,13 @@
+2026.01.22
+- [RQ1] 86000 origins cannot be reached
+  - have the list on Github
+  - plot the distribution of code hosting platforms with live / dead
+  - look into the list of origins that are not github.com and gitlab.com and check 'what' they are (univ., research, other)
+  - plot the distribution of signals
+- [RQ2] 155K origins
+  - collect locations
+  - collect language
+- [RQ3] p5.js   
 2026.01.06
 - [nadia] 1.6M origins in a single file, with live / dead status
   - super good.
