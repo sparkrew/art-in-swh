@@ -68,7 +68,7 @@ def fetch_results(url, attempt):
         print(response.json())
         return response.json()
 
-# expects a GHdatafile JSON file, which should be an array of JSON objects similar to the example found in sample.json
+# expects a GHdatafile JSON file, which should be an array of JSON objects similar to the example found in sample-rq2-data.json
 def getGHloc(GHdatafile):
     filename=GHdatafile.split(".json")
     destfilename=filename[0]+"with_locations.json"
@@ -102,8 +102,6 @@ def getGHloc(GHdatafile):
                         repo["main_contributor_profile"]["location_normalized"]=loc[0]["formatted"]
                     elif loc[0]["result_type"] == "district":
                         repo["main_contributor_profile"]["location_normalized"]=loc[0]["formatted"]
-                    elif loc[0]["result_type"] == "state":
-                        repo["main_contributor_profile"]["location_normalized"]=loc[0]["formatted"]
                     else:
                         repo["main_contributor_profile"]["location_normalized"]="not_found"
                 else:
@@ -127,7 +125,7 @@ def getGHloc(GHdatafile):
 # searches each location with the [Geoapify](https://www.geoapify.com/) geocoding API
 # saves the results of the search into filenamewith_locations.json
 def main():
-    getGHloc("sample-large.json")    
+    getGHloc("sample-rq2-data.json")    
 
 if __name__ == "__main__":
     main()
