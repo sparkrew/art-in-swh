@@ -6,8 +6,8 @@
     "repoUrl": "None",
     "year":"2020",
     "classification":{
-      "material_and_processes": ["synthesized_image", "randomness", "interactions"], 
-      "interaction": ["none"], 
+      "material_and_processes": ["synthesized_image", "randomness"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -26,8 +26,8 @@
     "repoUrl": "None",
     "year":"2020",
     "classification":{
-      "material_and_processes": ["processed_audio", "synthesized_image", "randomness", "interactions"], 
-      "interaction": ["human_interaction"], 
+      "material_and_processes": ["processed_audio", "synthesized_image", "randomness"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "auditory", "time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -48,7 +48,7 @@
     "hide": true,
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
     },
 
@@ -68,7 +68,7 @@
     "year":"2020",
     "classification":{
       "material_and_processes": ["synthesized_sound"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["auditory","visual","time_based"]
     },
 
@@ -88,8 +88,8 @@
     "year": "2020",
     "repoUrl": "None",
     "classification":{
-      "material_and_processes": ["synthesized_image", "interactions"], 
-      "interaction": ["human_interaction"], 
+      "material_and_processes": ["synthesized_image"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
     },
 
@@ -110,7 +110,7 @@
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -131,7 +131,7 @@
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image","processed_text","randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual","static"]
 
     },
@@ -152,7 +152,7 @@
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -174,7 +174,7 @@
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
 
     },
@@ -195,7 +195,7 @@
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
-      "interaction": ["computer_interaction"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -219,7 +219,7 @@
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual","static"]
 
     },
@@ -243,7 +243,7 @@
     "repoUrl": "None",
     "classification":{
       "material_and_processes": ["synthesized_image", "synthesized_sound", "randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "auditory", "time_based"]
 
     },
@@ -264,8 +264,8 @@
     "year": "2020",
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
-      "material_and_processes": ["processed_audio","processed_image","synthesized_image","synthesized_text","randomness","interactions"], 
-      "interaction": ["human_interaction", "computer_interaction"], 
+      "material_and_processes": ["processed_audio","processed_image","synthesized_image","synthesized_text","randomness"], 
+      "interaction": ["yes"], 
       "outcome": ["visual","auditory","time_based"]
 
     },
@@ -288,7 +288,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["processed_image","synthesized_image"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -311,7 +311,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_image","synthesized_text","randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
 
     },
@@ -334,7 +334,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -357,7 +357,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -379,8 +379,8 @@
     "year": "2020",
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
-      "material_and_processes": ["processed_audio","synthesized_image","randomness","interactions"], 
-      "interaction": ["human_interaction","computer_interaction"], 
+      "material_and_processes": ["processed_audio","synthesized_image","randomness"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "auditory", "time_based"]
 
     },
@@ -403,7 +403,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["processed_text","synthesized_image","synthesized_text"], 
-      "interaction": ["human_interaction", "computer_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -426,8 +426,8 @@
     "hide": true,
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
-      "material_and_processes": ["synthesized_sound","synthesized_image","interactions"], 
-      "interaction": ["human_interaction"],
+      "material_and_processes": ["synthesized_sound","synthesized_image"], 
+      "interaction": ["yes"],
       "outcome": ["visual", "auditory", "time_based"]
 
     },
@@ -448,7 +448,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["processed_audio","processed_image","synthesized_text"], 
-      "interaction": ["human_interaction", "computer_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "auditory", "time_based"]
 
     },
@@ -469,7 +469,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -493,7 +493,7 @@
     "repoUrl": "https://github.com/barbaraim/Creative-Coding-Portfolio/tree/main",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -516,7 +516,7 @@
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -539,7 +539,7 @@
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
       "material_and_processes": ["synthesized_image","randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
 
     },
@@ -559,7 +559,7 @@
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -582,7 +582,7 @@
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -604,8 +604,8 @@
     "year": "2020",
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
-      "material_and_processes": ["processed_audio","synthesized_image","interactions"], 
-      "interaction": ["human_interaction", "computer_interaction"], 
+      "material_and_processes": ["processed_audio","synthesized_image"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "auditory", "time_based"]
 
     },
@@ -624,8 +624,8 @@
     "year": "2020",
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
-      "material_and_processes": ["processed_audio","synthesized_image","interactions"], 
-      "interaction": ["human_interaction", "computer_interaction"], 
+      "material_and_processes": ["processed_audio","synthesized_image"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "auditory", "time_based"]
 
     },
@@ -645,7 +645,7 @@
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
       "material_and_processes": ["processed_image","synthesized_image"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -665,7 +665,7 @@
     "repoUrl": "https://github.com/cleonc13/Creative-Coding-Projects",
     "classification":{
       "material_and_processes": ["synthesized_text","randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -686,7 +686,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes":["synthesized_image", "randomness"],
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -707,7 +707,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes":["synthesized_image", "randomness"],
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -726,7 +726,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes":["synthesized_image"],
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -747,7 +747,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes":["synthesized_image"],
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -768,7 +768,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes":["synthesized_image"],
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -789,7 +789,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["processed_audio","synthesized_image", "randomness"],
-      "interaction": ["human_interaction"],
+      "interaction": ["yes"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -810,7 +810,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes":["synthesized_image"],
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -831,7 +831,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -852,7 +852,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["processed_image", "synthesized_image","randomness"],
-      "interaction": ["human_interaction"],
+      "interaction": ["yes"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -873,7 +873,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -894,8 +894,8 @@
     "year": "2020",
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
-      "material_and_processes": ["synthesized_image", "processed_image", 
-      "randomness"], "interaction": ["none"], 
+      "material_and_processes": ["synthesized_image", "processed_image", "randomness"],
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
 
     },
@@ -918,7 +918,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -939,7 +939,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -959,7 +959,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -980,7 +980,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1000,7 +1000,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1022,7 +1022,7 @@
     "repoUrl": "https://github.com/pratiksinghal48/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1042,7 +1042,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1063,7 +1063,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1082,8 +1082,8 @@
     "year": "2020",
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
-      "material_and_processes": ["synthesized_image", "random"], 
-      "interaction": ["none"], 
+      "material_and_processes": ["synthesized_image", "randomness"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
 
     },
@@ -1103,7 +1103,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1123,7 +1123,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1143,7 +1143,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1163,7 +1163,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1183,7 +1183,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1203,7 +1203,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1224,7 +1224,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["none"],
+      "interaction": ["no"],
        "outcome": ["visual", "time_based"]
 
     },
@@ -1245,7 +1245,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1265,7 +1265,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["human_interaction"], 
+      "interaction": ["yes"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1285,7 +1285,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1306,7 +1306,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "static"]
 
     },
@@ -1328,7 +1328,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["processed_image","synthesized_image"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1348,7 +1348,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["processed_image", "synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","static"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1369,7 +1369,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
 
@@ -1391,7 +1391,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1412,7 +1412,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1432,7 +1432,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1453,7 +1453,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1474,7 +1474,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1494,7 +1494,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1514,7 +1514,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"],
-      "interaction": ["none"],
+      "interaction": ["no"],
       "outcome": ["visual","time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -1534,7 +1534,7 @@
     "repoUrl": "https://github.com/HouCoder/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
@@ -1554,7 +1554,7 @@
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
       "material_and_processes": ["synthesized_image", "randomness"], 
-      "interaction": ["none"], 
+      "interaction": ["no"], 
       "outcome": ["visual", "time_based"]
 
     },
