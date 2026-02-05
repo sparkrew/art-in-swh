@@ -1,3 +1,28 @@
+2026.02.05
+- [roxana]
+  - remove from BIG file the origins that have man pages and that are labeled 'other'
+  - run the same pipeline as Rafaela, with the same 10 js files, just changing the classification framework. Then, compare both outputs (what's the impact of changing the classification framework?)
+- [RQ1]
+  - [nadia] has the plot (log scale): it's super cool
+  - git.code.sf.net, gitorious: what were these origins? what kind of art code (signal) did they have?
+  - codeberg already has dead repos: what are they? what are the live repos?
+  - git.sr.ht: what are the 8 haitian origins?
+  - 5% of Github origins are dead
+  - plot the distribution of signals
+- [RQ2]
+  - [yogya] collect locations for 155K
+  - [benoit] working on collecting the language
+    - the rust package is useless (sees Latin everywhere...)
+- [RQ3]
+  - [yogya] has the list of external p5 libs found in the data
+  - [yogya] will collect the distribution of number of artworks per origin
+  - [rafaela] we have a pipeline that generates an empty json and plots an empty plot
+  - [roxana] run Qwen3 on CalculQC with the 74 examples and compare with the ground truth
+- [RQ4]
+  - [yogya] has the list of the 42 top contributors, will push on Github
+  - [benoit, roxana] will analyze it 
+ 
+    
 2026.01.22
 - [RQ1] 86000 origins cannot be reached
   - have the list on Github
