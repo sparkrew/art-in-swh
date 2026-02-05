@@ -3,8 +3,8 @@
 #==================#
 
 chosen_config:
-    # config_mode: 'examples' # the idea is that we'll be able to reuse this code afterwards
-    config_mode: 'artworks' # the idea is that we'll be able to reuse this code afterwards
+    config_mode: 'examples' # the idea is that we'll be able to reuse this code afterwards
+    # config_mode: 'artworks' # the idea is that we'll be able to reuse this code afterwards
     model: 'qwen'
     prompt_version: 'PROMPT_2'  # 'PROMPT_1' or 'PROMPT_2' for now
 

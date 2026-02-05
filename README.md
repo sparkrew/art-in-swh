@@ -34,6 +34,21 @@ If you open a Jupyter server, navigate to the repo's root folder.
 
 The `config.yml` contains the relevant i/o paths.
 
+#### Switching Between Artworks and Examples
+
+To switch between processing artworks or examples, edit the `config.yml` file:
+
+- For **examples**: Set `config_mode: 'examples'` (comment out the artworks line)
+- For **artworks**: Set `config_mode: 'artworks'` (comment out the examples line)
+
+This will change the source paths and output directories used by the scripts.
+
+#### Modifying Examples
+
+Example files for reference and manual annotations are stored in the `./examples/` folder in this repository.
+
+The actual source files processed by the scripts are located for now in the shared data folder: `../links/projects/def-baudry/shared/data/examples/src`
+
 
 ### Shared files
 
