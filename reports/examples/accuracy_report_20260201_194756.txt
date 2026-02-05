@@ -1,0 +1,20 @@
+Number of files analyzed: 5
+
+[entities]
+subset_accuracy: 0.250000
+precision_micro: 0.727273
+recall_micro: 0.888889
+f1_micro: 0.800000
+
+[interaction]
+subset_accuracy: 0.750000
+precision_micro: 0.750000
+recall_micro: 0.750000
+f1_micro: 0.750000
+
+[outcome]
+subset_accuracy: 1.000000
+precision_micro: 1.000000
+recall_micro: 1.000000
+f1_micro: 1.000000
+

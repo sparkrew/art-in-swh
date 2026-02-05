@@ -3,7 +3,8 @@
 #==================#
 
 chosen_config:
-    config_mode: 'examples' # the idea is that we'll be able to reuse this code afterwards
+    # config_mode: 'examples' # the idea is that we'll be able to reuse this code afterwards
+    config_mode: 'artworks' # the idea is that we'll be able to reuse this code afterwards
     model: 'qwen'
     prompt_version: 'PROMPT_2'  # 'PROMPT_1' or 'PROMPT_2' for now
 
@@ -22,12 +23,12 @@ examples:
   true_labels_path: "../links/projects/def-baudry/shared/data/examples/true_labels"
   predicted_labels_path: "../links/projects/def-baudry/shared/data/examples/predicted_labels"
   # Evaluation
-  report_folder_path: "../links/projects/def-baudry/shared/data/examples/reports"
+  report_folder_path: "reports/examples"
 
 # SWH Art works
 # The idea is that we will 
-# artworks:
-#   src_path: "../links/projects/def-baudry/shared/data/artworks/src"
-#   predicted_labels_path: "../links/projects/def-baudry/shared/data/artworks/predicted_labels"
-#   # Evaluation
-#   report_folder_path: "../links/projects/def-baudry/shared/data/artworks/reports"
+artworks:
+  src_path: "../links/projects/def-baudry/shared/data/artworks/src"
+  predicted_labels_path: "../links/projects/def-baudry/shared/data/artworks/predicted_labels"
+  # Evaluation
+  report_folder_path: "reports/artworks"
