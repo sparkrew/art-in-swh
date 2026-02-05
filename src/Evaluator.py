@@ -20,7 +20,6 @@ class Evaluator:
         self.batch_predictions_filename = batch_predictions_filename
         self._batch_predictions = None
         self.metrics = None
-    
         if true_dir and os.path.exists(true_dir):
             self.true_files = [
                 f for f in os.listdir(true_dir)

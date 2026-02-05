@@ -11,15 +11,23 @@ def get_prompt_template(prompt_version):
     return globals()[prompt_version].template
 
 
-def list_src_files(dir):
+def list_src_files(src_dir, limit=10):
     """
-    Given a dir, it returns the list of source files to analyse
+    Return up to `limit` files found recursively under src_dir.
+    Returns relative paths (so os.path.join(src_dir, relpath) works).
+    Stops early for speed.
     """
-    files = os.listdir(dir)
-    files = [f for f in files if f.endswith(('.js', '.html')) and os.path.isfile(os.path.join(dir, f))]
-    return files
+    out = []
+    for root, _, files in os.walk(src_dir):
+        for f in files:
+            full_path = os.path.join(root, f)
+            if os.path.isfile(full_path):
+                out.append(os.path.relpath(full_path, src_dir))
+                if len(out) >= limit:
+                    return out
+    return out
 
-
+    
 def process_files(prompt_template, src_dir, output_dir, model, timestamp, start=None, end=None):
     """
     Process all source files in examples directory
@@ -28,14 +36,15 @@ def process_files(prompt_template, src_dir, output_dir, model, timestamp, start=
         can we process them in parallel?
     """
     src_files = list_src_files(src_dir)
+    print("src_dir:", src_dir)
     
     # Slice the file list if start/end are provided
     if start is not None or end is not None:
         src_files = src_files[start:end]
         print(f"Processing files {start} to {end}: {len(src_files)} files")
     else:
-        src_files = src_files[:5]
-        print(f"Processing first 5 files: {len(src_files)} files")
+        src_files = src_files[:10]
+        print(f"Processing first 10 files: {len(src_files)} files")
     
     # Accumulate all predictions in a dictionary
     all_predictions = {}
@@ -53,6 +62,8 @@ def process_files(prompt_template, src_dir, output_dir, model, timestamp, start=
             art_src_code=art_src_code, 
             system_prompt=model.system_prompt
             )
+        print(file_name, "\n\n")
+        print(predicted_labels)
 
         # Store predictions with filename as key
         all_predictions[file_name] = predicted_labels
