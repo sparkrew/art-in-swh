@@ -1,3 +1,20 @@
+2026.02.19
+- [nadia]
+  - check if some user names are only among the dead origins
+  - order the 'dead' origins by size; plot; decide on a threshold; check all origins larger than threshold to collect the signals; then we'll manually check some of them
+  - plot for the dead/alive origins: add a row for hosts that have less than 10 origins (how many hosts? how many origins?)
+  - data about signals of orgins that are in hosts where all is dead: add this file in the repo
+  - structure of txt for RQ1
+    - one par: describe the plot
+    - one par: discuss the GH monoculture and still lot of of diversity
+    - one par: discuss the dead ones, in particular the totally dead
+    - one par: the hosts that have only dead
+    - one par: codeberg
+    - one par? 'the others'
+- [benoit]
+  - invite stefano as author
+-     
+
 2026.02.05
 - [roxana]
   - remove from BIG file the origins that have man pages and that are labeled 'other'
