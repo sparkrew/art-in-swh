@@ -1,9 +1,10 @@
 2026.02.19
-- [nadia]
-  - check if some user names are only among the dead origins
-  - order the 'dead' origins by size; plot; decide on a threshold; check all origins larger than threshold to collect the signals; then we'll manually check some of them
-  - plot for the dead/alive origins: add a row for hosts that have less than 10 origins (how many hosts? how many origins?)
-  - data about signals of orgins that are in hosts where all is dead: add this file in the repo
+- [RQ1]
+  - [nadia] check if some user names are only among the dead origins
+  - [nadia] order the 'dead' origins by size; plot; decide on a threshold; check all origins larger than threshold to collect the signals; then we'll manually check some of them
+  - [nadia] plot for the dead/alive origins: add a row for hosts that have less than 10 origins (how many hosts? how many origins?)
+  - [nadia] data about signals of orgins that are in hosts where all is dead: add this file in the repo
+  - [yogya] remove duplicate origins
   - structure of txt for RQ1
     - one par: describe the plot
     - one par: discuss the GH monoculture and still lot of of diversity
@@ -13,8 +14,17 @@
     - one par? 'the others'
 - [benoit]
   - invite stefano as author
--     
-
+- [roxana]
+  - run the same pipeline as Rafaela, with the same 10 js files, just changing the classification framework. Then, compare both outputs (what's the impact of changing the classification framework?)
+  - separated the man pages from the rest
+- [RQ2]
+  - geoapify has a strong limit on nb of requests
+  - [yogya] update the get-readme-lang.py to filter out readme files that are less than 42 words and get the language for readme files that have more than 42 words
+- [RQ4]
+  - [roxana] has checked the 42 top user names
+  - we'll write about it
+ 
+   
 2026.02.05
 - [roxana]
   - remove from BIG file the origins that have man pages and that are labeled 'other'
