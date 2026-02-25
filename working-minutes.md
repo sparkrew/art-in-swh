@@ -4,6 +4,7 @@
   - [nadia] order the 'dead' origins by size; plot; decide on a threshold; check all origins larger than threshold to collect the signals; then we'll manually check some of them
   - [nadia] plot for the dead/alive origins: change position of urls to the right side of the bars, add "0" when there are no repos, add a row for hosts that have less than 10 origins (how many hosts? how many origins?)
   - [nadia] data about signals of orgins that are in hosts where all is dead: add this file in the repo
+  - [nadia] what are the signals of the large repos in the dead origins
   - [yogya] remove duplicate origins
   - structure of txt for RQ1
     - one par: describe the plot
