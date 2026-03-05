@@ -4,6 +4,7 @@
   - number after deduplication (nadia removed 'exact' duplicates, yogya removed 'pseudo' duplicates)
   - number after removing scd that are not supercollider, removed cpp that are not openframeworks
   - plot distribution of signals
+- [yogya, lena] work on RQ2 data + vizualization
       
 2026.02.19
 - [RQ1]
