@@ -3,7 +3,8 @@
   - number we had at the very beginning: nb of repos acc to GH topics + repos acc file ext
   - number after deduplication (nadia removed 'exact' duplicates, yogya removed 'pseudo' duplicates)
   - number after removing scd that are not supercollider, removed cpp that are not openframeworks
-  - + plot distribution of signals
+  - plot distribution of signals
+      
 2026.02.19
 - [RQ1]
   - [nadia] check if some user names are only among the dead origins
