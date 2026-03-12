@@ -1,3 +1,39 @@
+2026.03.05
+- [nadia, roxana, yogya] write a section about how we cleaned
+  - number we had at the very beginning: nb of repos acc to GH topics + repos acc file ext
+  - number after deduplication (nadia removed 'exact' duplicates, yogya removed 'pseudo' duplicates)
+  - number after removing scd that are not supercollider, removed cpp that are not openframeworks
+  - plot distribution of signals
+- [yogya, lena] work on RQ2 data + vizualization
+      
+2026.02.19
+- [RQ1]
+  - [nadia] check if some user names are only among the dead origins
+  - [nadia] order the 'dead' origins by size; plot; decide on a threshold; check all origins larger than threshold to collect the signals; then we'll manually check some of them
+  - [nadia] plot for the dead/alive origins: change position of urls to the right side of the bars, add "0" when there are no repos, add a row for hosts that have less than 10 origins (how many hosts? how many origins?)
+  - [nadia] data about signals of orgins that are in hosts where all is dead: add this file in the repo
+  - [nadia] what are the signals of the large repos in the dead origins
+  - [yogya] remove duplicate origins
+  - structure of txt for RQ1
+    - one par: describe the plot
+    - one par: discuss the GH monoculture and still lot of of diversity
+    - one par: discuss the dead ones, in particular the totally dead
+    - one par: the hosts that have only dead
+    - one par: codeberg
+    - one par? 'the others'
+- [benoit]
+  - invite stefano as author
+- [roxana]
+  - run the same pipeline as Rafaela, with the same 10 js files, just changing the classification framework. Then, compare both outputs (what's the impact of changing the classification framework?)
+  - separated the man pages from the rest
+- [RQ2]
+  - geoapify has a strong limit on nb of requests
+  - [yogya] update the get-readme-lang.py to filter out readme files that are less than 42 words and get the language for readme files that have more than 42 words
+- [RQ4]
+  - [roxana] has checked the 42 top user names
+  - we'll write about it
+ 
+   
 2026.02.05
 - [roxana]
   - remove from BIG file the origins that have man pages and that are labeled 'other'
