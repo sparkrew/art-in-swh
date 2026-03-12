@@ -1,0 +1,30 @@
+[
+    {
+        "art-tech":"supercollider",
+        "signals":[".scd"]
+    },
+    {
+        "art-tech":"processing",
+        "signals":[".pde"]
+    },
+    {
+        "art-tech":"nodebox",
+        "signals":[".ndbx"]
+    },
+    {
+        "art-tech":"touchDesigner",
+        "signals":[".toe", ".tox"]
+    },
+    {
+        "art-tech":"vvvv",
+        "signals":[".v4p"]
+    },
+    {
+        "art-tech":"openFrameworks",
+        "signals":["ofApp.cpp","ofApp.h"]
+    },
+    {
+        "art-tech":"p5",
+        "signals":["p5.js", "p5.min.js"]
+    }
+]
