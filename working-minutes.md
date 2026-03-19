@@ -3,6 +3,8 @@
   - new figure 2 (for RQ1)
   - RQ4 first draft
   - Table 1  simplifies our definition of signals; we discard the repos that only match a Github topic
+- [yogya] v4p, toe, tox, ndbx: do these file extensions correspond to something else than touchdesigner, nodebox, vvvv?
+- [nadia] compute the distribution of repos per art tech; then create a pie chart 
 
 2026.03.05
 - [nadia, roxana, yogya] write a section about how we cleaned
