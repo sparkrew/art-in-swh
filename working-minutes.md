@@ -1,3 +1,9 @@
+2026.03.19
+- news
+  - new figure 2 (for RQ1)
+  - RQ4 first draft
+  - Table 1  simplifies our definition of signals; we discard the repos that only match a Github topic
+
 2026.03.05
 - [nadia, roxana, yogya] write a section about how we cleaned
   - number we had at the very beginning: nb of repos acc to GH topics + repos acc file ext
