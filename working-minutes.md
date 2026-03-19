@@ -4,7 +4,17 @@
   - RQ4 first draft
   - Table 1  simplifies our definition of signals; we discard the repos that only match a Github topic
 - [yogya] v4p, toe, tox, ndbx: do these file extensions correspond to something else than touchdesigner, nodebox, vvvv?
-- [nadia] compute the distribution of repos per art tech; then create a pie chart 
+- [nadia] compute the distribution of repos per art tech; then create a pie chart
+- [lena] first version of the map!
+  - https://observablehq.com/@sparkrew/quick-map-with-index-of-locations
+  - we have points all over the world :)
+  - next steps: work on the map and on the size of the points
+- [benoit]
+  - https://github.com/bbaudry/genart-classifier 
+  - cluster more sketches
+  - add a color for using random or noise
+  - add a color for audio functions
+- [roxana] look at the cluster and check if it relates to the classification 
 
 2026.03.05
 - [nadia, roxana, yogya] write a section about how we cleaned
