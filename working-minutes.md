@@ -14,7 +14,8 @@
   - cluster more sketches
   - add a color for using random or noise
   - add a color for audio functions
-- [roxana] look at the cluster and check if it relates to the classification 
+- [roxana] look at the cluster and check if it relates to the classification
+- [roxana] The json file for the source code and classification of 74 artworks: https://github.com/Selleen/arc-web/blob/main/src/data/artworks.json
 
 2026.03.05
 - [nadia, roxana, yogya] write a section about how we cleaned
