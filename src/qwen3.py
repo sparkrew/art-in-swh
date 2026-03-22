@@ -11,7 +11,7 @@ def get_prompt_template(prompt_version):
     return globals()[prompt_version].template
 
 
-def list_src_files(src_dir, limit=10):
+def list_src_files(src_dir, limit=100):
     """
     Return up to `limit` files found recursively under src_dir.
     Returns relative paths (so os.path.join(src_dir, relpath) works).
@@ -43,7 +43,7 @@ def process_files(prompt_template, src_dir, output_dir, model, timestamp, start=
         src_files = src_files[start:end]
         print(f"Processing files {start} to {end}: {len(src_files)} files")
     else:
-        src_files = src_files[:10]
+        src_files = src_files
         print(f"Processing first 10 files: {len(src_files)} files")
     
     # Accumulate all predictions in a dictionary
@@ -55,15 +55,15 @@ def process_files(prompt_template, src_dir, output_dir, model, timestamp, start=
         # Read file
         with open(file_path, 'r') as f:
             art_src_code = f.read()
-            
+        
+        print(file_name)
         # Get labels
         predicted_labels = model.get_labels(
             prompt_template=prompt_template, 
             art_src_code=art_src_code, 
             system_prompt=model.system_prompt
             )
-        print(file_name, "\n\n")
-        print(predicted_labels)
+        print(predicted_labels, "\n\n")
 
         # Store predictions with filename as key
         all_predictions[file_name] = predicted_labels
