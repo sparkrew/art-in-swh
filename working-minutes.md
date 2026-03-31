@@ -11,7 +11,9 @@
   - if the repo a fork?
   - if yes, which original repo is forked?
 - [rafaela] ask the LLM to extract between 5 and 10 topics from the p5 api https://p5js.org/reference/data.json
-  - we'll use these topics to classify the many sketches  
+  - we'll use these topics to classify the many sketches
+- [roxana] update RQ4
+- [nadia] update RQ2
 
 
 2026.03.19
