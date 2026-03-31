@@ -1,3 +1,17 @@
+2026.03.31
+- [yogya] v4p, toe, tox, ndbx: all look good
+- [nadia] did a nice figure with the distribution of tech stacks. Will do a second version with legend on the right and no title at the top
+- [nadia,roxana,yogya] write section III.B
+- [nadia] for the figure of dead/live
+  - add a legend for the x-axis: "Source code hosting platforms"
+  - how many of the others have only dead repos
+  - how many of the others have a single repo
+  - how many Github users have removed all their repos
+- [yogya] collect info about forked repos in our dataset
+  - if the repo a fork?
+  - if yes, which original repo is forked?
+
+
 2026.03.19
 - news
   - new figure 2 (for RQ1)
