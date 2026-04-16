@@ -1,3 +1,15 @@
+
+2026.04.16
+- [yogya, nadia] review III.B and ping Benoit
+- [lena] works on a color palette with 4 main colors
+- [benoit] writes II, IV.A
+- [benoit,yogya] write RQ2 and 3 in methodology
+- [lena] prepares THE map
+- [benoit,yogya] write the results of RQ2
+- [benoit,rafaela] check the results of classification
+- [roxana] manually label 25 random works
+- [roxana] write related works
+
 2026.03.31
 - [yogya] v4p, toe, tox, ndbx: all look good
 - [nadia] did a nice figure with the distribution of tech stacks. Will do a second version with legend on the right and no title at the top
