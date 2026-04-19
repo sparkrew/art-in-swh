@@ -28,7 +28,7 @@
     "classification":{
       "material_and_processes": ["processed_audio", "synthesized_image", "randomness"], 
       "interaction": ["yes"], 
-      "outcome": ["visual", "auditory", "time_based"]
+      "outcome": ["auditory", "visual", "time_based"]
     },
     "description": "A generative landscape created using Perlin noise.",
     "llm_notes": "Relies on Perlin noise to produce smooth organic shapes resembling a landscape.",
@@ -130,7 +130,7 @@
     "year": "2020",
     "repoUrl": "None",
     "classification":{
-      "material_and_processes": ["synthesized_image","processed_text","randomness"], 
+      "material_and_processes": ["processed_text","synthesized_image","randomness"], 
       "interaction": ["no"], 
       "outcome": ["visual","static"]
 
@@ -244,7 +244,7 @@
     "classification":{
       "material_and_processes": ["synthesized_image", "synthesized_sound", "randomness"], 
       "interaction": ["yes"], 
-      "outcome": ["visual", "auditory", "time_based"]
+      "outcome": [ "auditory", "visual", "time_based"]
 
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -266,7 +266,7 @@
     "classification":{
       "material_and_processes": ["processed_audio","processed_image","synthesized_image","synthesized_text","randomness"], 
       "interaction": ["yes"], 
-      "outcome": ["visual","auditory","time_based"]
+      "outcome": ["auditory","visual","time_based"]
 
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -381,7 +381,7 @@
     "classification":{
       "material_and_processes": ["processed_audio","synthesized_image","randomness"], 
       "interaction": ["yes"], 
-      "outcome": ["visual", "auditory", "time_based"]
+      "outcome": [ "auditory", "visual","time_based"]
 
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -428,7 +428,7 @@
     "classification":{
       "material_and_processes": ["synthesized_sound","synthesized_image"], 
       "interaction": ["yes"],
-      "outcome": ["visual", "auditory", "time_based"]
+      "outcome": ["auditory", "visual", "time_based"]
 
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -449,7 +449,7 @@
     "classification":{
       "material_and_processes": ["processed_audio","processed_image","synthesized_text"], 
       "interaction": ["yes"], 
-      "outcome": ["visual", "auditory", "time_based"]
+      "outcome": ["auditory", "visual", "time_based"]
 
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -606,7 +606,7 @@
     "classification":{
       "material_and_processes": ["processed_audio","synthesized_image"], 
       "interaction": ["yes"], 
-      "outcome": ["visual", "auditory", "time_based"]
+      "outcome": ["auditory", "visual", "time_based"]
 
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -626,7 +626,7 @@
     "classification":{
       "material_and_processes": ["processed_audio","synthesized_image"], 
       "interaction": ["yes"], 
-      "outcome": ["visual", "auditory", "time_based"]
+      "outcome": ["auditory", "visual", "time_based"]
 
     },
     "description": "A generative landscape created using Perlin noise.",
@@ -894,7 +894,7 @@
     "year": "2020",
     "repoUrl": "https://github.com/Abhi-Gautam/Creative-Coding",
     "classification":{
-      "material_and_processes": ["synthesized_image", "processed_image", "randomness"],
+      "material_and_processes": ["processed_image", "synthesized_image", "randomness"],
       "interaction": ["no"], 
       "outcome": ["visual", "static"]
 
