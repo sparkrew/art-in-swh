@@ -1,5 +1,6 @@
 
 2026.04.16
+- [yogya] -  remove topic based repos from the selected repos for RQ2
 - [yogya, nadia] review III.B and ping Benoit
 - [lena] works on a color palette with 4 main colors
 - [benoit] writes II, IV.A
