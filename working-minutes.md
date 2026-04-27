@@ -2,7 +2,14 @@
 2026.04.27
 - [lena] review / edit section 2
 - [benoit] work on IV.A
-- [yogya] add fields city, state, district, county, country for all origins that have valid longitude and latitude
+- [yogya]
+  - add fields city, state, district, county, country for all origins that have valid longitude and latitude
+  - remove topic based repos from the selected repos for RQ2
+- [nadia] finalize RQ1
+- [roxana] update RQ4 and then we ask Stefano for review
+- [roxana] manually label 25 random works, among the ones that have been automatically labelled by the LLM
+- we have a palette: ttps://coolors.co/ff0000-337ca0-3ec300-fffc31-020122
+
 
 2026.04.16
 - [yogya] -  remove topic based repos from the selected repos for RQ2
