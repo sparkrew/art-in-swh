@@ -2,6 +2,7 @@
 2026.04.27
 - [lena] review / edit section 2
 - [benoit] work on IV.A
+- [yogya] add fields city, state, district, county, country for all origins that have valid longitude and latitude
 
 2026.04.16
 - [yogya] -  remove topic based repos from the selected repos for RQ2
