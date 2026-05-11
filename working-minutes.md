@@ -2,6 +2,7 @@
 - [yogya] merge repos_filtered_data_with_valid_locations with final_all_locations
 - [yogya, nadia, roxana] 'retrieve' the original number of repositories before cleaning
 - [nadia] rework figure 2
+- [all] consolidate documentation of data and scripts here: https://github.com/sparkrew/art-in-humanitys-code/tree/main
 
 2026.04.27
 - [lena] review / edit section 2
