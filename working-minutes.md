@@ -1,6 +1,7 @@
 2026.04.30
 - [yogya] merge repos_filtered_data_with_valid_locations with final_all_locations
 - [yogya, nadia, roxana] 'retrieve' the original number of repositories before cleaning
+- [nadia] rework figure 2
 
 2026.04.27
 - [lena] review / edit section 2
