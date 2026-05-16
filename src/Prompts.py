@@ -219,59 +219,242 @@ PROMPT_4 = PromptTemplate(
 )
 
 
+
 PROMPT_5 = PromptTemplate(
     name="detailed_analysis_new_categories",
-    template="""You are an expert in generative art in p5.js, and you are going to analyse a source code of a generative artwork in p5.js and output tags in JSON.
+    template="""You analyze source code of a generative artwork and output tags in JSON.
 
-The ONLY dimensions and allowed tags are:
+    Dimensions and allowed tags:
 
----
+    entities (0+ tags):
+    - "processed_audio"      // uses preexisting audio material, such as mp3, wav, or MIDI files, as part of the artwork
+    - "processed_image"      // uses preexisting visual material, such as image or video files, as part of the artwork
+    - "processed_text"       // uses preexisting textual material, such as text or code files, as part of the artwork
+    - "synthesized_sound"    // synthesizes or generates new sounds or notes as part of the artwork
+    - "synthesized_image"    // synthesizes or generates new visual elements (shapes, lines, shaders, particles, typography on screen, image transformations, etc) as part of the artwork
+    - "synthesized_text"     // synthesizes or generates new textual or typographic elements as part of the artwork
+    - "randomness"           // uses any stochastic, pseudo-random, or noise-based process in the synthesis or processing of visual, auditory, or textual elements. Add this tag whenever the code uses randomness at any stage, even once, including in setup(). This includes random(), randomGaussian(), Math.random(), noise(), randomSeed(), noiseSeed(), shuffle(), probabilistic branching, random selection from arrays, and random initialization of parameters such as position, size, color, timing, velocity, or procedural structure. Seeded randomness still counts. Do not require the result to look chaotic; if random or noise-based values influence the artwork, include "randomness".
 
-entities (0+ tags):
+    interaction (exactly 1):
+    - "yes"                  // the artwork includes interaction, such as mouse, keyboard, MIDI, mic, camera, motion sensor, lidar, data files, streams, remote data, or web APIs
+    - "no"
 
-- "processed_audio" // uses preexisting audio material, such as mp3, wav, or MIDI files, as part of the artwork
-- "processed_image" // uses preexisting visual material, such as image or video files, as part of the artwork
-- "processed_text" // uses preexisting textual material, such as text or code files, as part of the artwork
+    outcome (≥1 modality + exactly 1 time tag):
+    - modalities: "visual", "auditory"
+    - time: "static" or "time_based" // "static" means that, from a human perspective, the output draw does not change over time. If it changes, it is "time_based".
+
+
+    Randomness rule:
+    
+    - Add "randomness" if the code uses any stochastic or pseudo-random mechanism anywhere in the artwork pipeline.
+    - This includes both:
+      1. explicit randomness, such as random(), Math.random(), randomGaussian(), shuffle(), probabilistic if/else decisions, random picks from arrays;
+      2. procedural randomness, such as noise(), Perlin noise, seeded random/noise, or any random initialization of visual/audio/text parameters.
+    - Count it even if:
+      - it happens only in setup();
+      - the output becomes static afterward;
+      - the randomness is seeded and reproducible;
+      - it affects only small details rather than the main composition.
+    - Do NOT require that the result look chaotic or unpredictable to a human. If random or noise-based values are used in generation, tag "randomness"..
+
+    Rules:
+    - Use only the tags listed above.
+    - In "interaction", always include exactly one tag: "yes" or "no".
+    - In "outcome", always include exactly one of "static" or "time_based".
+    - In "outcome", include one or more applicable modality tags.
+    - Do not infer tags that are not supported by the code.
+
+    Output format (JSON only, no explanation, no extra text):
+
+    {
+    "entities": [...],
+    "interaction": [...],
+    "outcome": [...]
+    }
+
+    Now analyze this source code:
+    """,
+    description="Detailed classification with interaction detection - New classification",
+    version="4.0"
+)
+
+
+
+
+PROMPT_10 = PromptTemplate(
+    name="detailed_analysis_new_categories",
+    template="""You classify p5.js source code and return ONLY a JSON object.
+
+Output format:
+{"entities":[],"interaction":[],"outcome":[]}
+
+Rules for output:
+- Return valid JSON only.
+- No markdown.
+- No explanation.
+- No extra text before or after the JSON.
+- entities: array of 0+ tags
+- interaction: array with exactly 1 tag, either "yes" or "no"
+- outcome: array with 1+ modality tags and exactly 1 time tag
+- If "auditory" is present, "time_based" must also be present
+
+The ONLY allowed tags for each category are:
+
+entities:
+- "processed_audio"
+- "processed_image"
+- "processed_text"
+- "synthesized_sound"
+- "synthesized_image"
+- "synthesized_text"
 - "randomness"
 
-interaction (exactly 1):
+interaction:
+- "yes"
+- "no"
 
-- "yes" // the artwork includes interaction, such as mouse, keyboard, MIDI, mic, camera, motion sensor, lidar. Reading data files, streams, remote data, or web APIs also counts as interactions.
-- "no" // if the artwork does not include interactions (or if the only interaction is to save images)
+outcome:
+- "visual"
+- "auditory"
+- "static"
+- "time_based"
 
-outcome (≥1 modality + 1 time tag):
+How to classify
 
-- "visual" // Add "visual" modality whenever the code draws or renders anything, meaning it produces something you can see.
-- "auditory" // Add "auditory" modality whenever the code generates, plays, records, or analyzes sound (p5.sound/Web Audio/MIDI/mic/audio files); it can be both if it does any drawing and any audio.
-- "text" // adds text or typographic elements as part of the artwork
-- "static" or "time_based" // exactly 1 time tag. "static" means that, from a human perspective, the output draw does not change over time (even if draw() loops). "time_based" means the rendered output changes over time.
+entities
+- processed_audio: uses preexisting audio material or live audio input
+  Examples: loadSound(), audio files, microphone, audio capture, reading or transforming existing audio
+- processed_image: uses preexisting visual material or live visual input
+  Examples: loadImage(), image(), createVideo(), video files, webcam, camera, createCapture(VIDEO), reading or transforming existing visual material
+- processed_text: uses preexisting textual material
+  Examples: loadJSON(), loadStrings(), loadTable(), loadXML(), external text/code/data files
+- synthesized_sound: generates new sound or modifies audio in a generative way
+  Examples: oscillators, generated notes, algorithmic sound, transforming loaded audio and outputting sound
+- synthesized_image: generates or transforms visual output
+  Examples: shapes, lines, pixels, shaders, particles, typography on screen, image transformations
+- synthesized_text: text or typography is shown/generated as part of the piece
+  Examples: text() on screen, letters/words/symbols shown visually, fixed strings shown on screen
+- randomness: any randomness appears anywhere in the code
+  Examples: random(), noise(), Math.random(), shuffle, probabilistic choice, random seed usage
 
----
+interaction
+Use "yes" if the sketch uses any external input, environmental input, live input, loaded file, or user input.
+Examples:
+- mouse, keyboard, touch
+- microphone, camera, sensors, MIDI
+- APIs, remote data, URLs, browser params
+- local or remote files loaded as input
+Use "no" otherwise.
 
-Time tag rule (summary):
+Important interaction rules:
+- loadImage() => interaction yes + processed_image
+- loadSound() => interaction yes + processed_audio
+- loadJSON(), loadStrings(), loadTable(), loadXML() => interaction yes + processed_text
+- microphone input => interaction yes + processed_audio
+- camera/webcam/video capture => interaction yes + processed_image
 
-- If noLoop() is present OR draw() is absent → time tag = "static".
-- Else → time tag = "time_based" ONLY if something forces visible change across frames (e.g., frameCount/millis/deltaTime used in drawing, per-frame state updates, random/noise evaluated in draw(), or live input affecting drawing). Otherwise → "static".
+outcome
+These are based on human perception of the artwork, not internal code structure.
 
+Modality tags:
+- visual: anything human-visible is created or shown
+  Examples: shapes, images, animation, text on screen, visible video
+- auditory: any audible sound is produced or played
+  Examples: music, tones, generated sound, manipulated audio output
 
-Overall Rules:
+Time tag:
+- static: the human experience does not vary over time
+- time-based: the human experience varies over time visually or auditorily
 
-- You are only allowed to use the tags listed above. Do not create new tags.
-- In "interaction", always include exactly one tag: "yes" or "no".
-- In "outcome", always include exactly one of "static" or "time_based".
-- In "outcome", include one or more applicable modality tags.
-- Do not infer tags that are not supported by the code.
+RANDOMNESS DECISION RULE
 
-Output format (JSON only, no explanation, no extra text):
+Decide the randomness tag BEFORE semantic interpretation.
 
-{
-"entities": [...],
-"interaction": [...],
-"outcome": [...]
-}
+Search the entire source code for any of these:
+- random(
+- noise(
+- Math.random
+- randomSeed
+- noiseSeed
+- randomGaussian
+- shuffle
+- random2D
 
-Now analyze this source code:
+If ANY of them appears anywhere in the code, then entities MUST include "randomness".
+
+Important:
+- This includes preload(), setup(), draw(), helper functions, class methods, event handlers, optional branches, and modes.
+- This includes randomness used only to choose files, fonts, words, colors, positions, sizes, paths, or parameters.
+- This includes Perlin noise via noise(...).
+- Do not ask whether the randomness is central, visible, or dominant.
+- Presence anywhere in executable code is enough.
+
+TIME-BASED DECISION RULE
+
+Decide "time_based" from the HUMAN EXPERIENCE.
+
+Use "time_based" if a human can see or hear the piece change over runtime, even if:
+- the change is caused by mouse, keyboard, sliders, webcam, mic, or other interaction
+- the sketch progressively builds an image over frames
+- the sketch changes for a while and then stops with noLoop()
+- the animation is slow
+- the variation is driven by frameCount, millis, noise with a changing time input, random values generated during draw, or variables updated across frames
+
+Use "static" ONLY if the human experience stays visually and auditorily the same over time.
+
+Important:
+- A sketch is still "time_based" if it eventually stops after changing.
+- A sketch is still "time_based" if the visible change happens only when the user interacts.
+- Do NOT classify as "static" just because noLoop() appears somewhere.
+- Do NOT classify as "static" just because the piece is interactive rather than autonomous.
+
+Important temporal rules
+- Classify by final human experience, not by implementation details alone
+- A sketch can be static even if draw() exists
+- If it keeps rendering the same still image, use static
+- If visuals change over time, use time-based
+- If any sound is present, use auditory and time-based
+
+Important inference rules
+- Apply all tags that are needed
+- A sketch can have both processed and synthesized tags in the same modality
+- If text appears on screen, include synthesized_text and visual
+- Standard p5.js drawing/rendering usually implies synthesized_image and visual
+- If an image is loaded, transformed, and displayed, include processed_image, synthesized_image, visual
+- If a song is loaded and played, include processed_audio, auditory, time-based
+- If audio is read, transformed, and played, include processed_audio, synthesized_sound, auditory, time-based
+
+Again, the ONLY allowed tags are:
+
+entities:
+- "processed_audio"
+- "processed_image"
+- "processed_text"
+- "synthesized_sound"
+- "synthesized_image"
+- "synthesized_text"
+- "randomness"
+
+interaction:
+- "yes"
+- "no"
+
+outcome:
+- "visual"
+- "auditory"
+- "static"
+- "time_based"
+
+Return only the JSON object using the following template:
+    {
+    "entities": [...],
+    "interaction": [...],
+    "outcome": [...]
+    }
 """,
     description="Detailed classification with interaction detection - New classification",
     version="5.0"
 )
+
+# text false positives
+# 
