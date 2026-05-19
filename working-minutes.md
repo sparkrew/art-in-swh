@@ -4,6 +4,12 @@
   - update the hosts/liveness to include googlecode
   - push old code to new repo
   - update overleaf RQ1
+- [yogya] script for the forks as run to completion! let's update
+- [nadia] update rq1 with concrete examples
+- [lena] update map + add bar plot
+- [yogya, benoit] write in rq2
+- [roxana, rafeala] discuss rq3
+- [benoit] review related works
 
 2026.04.30
 - [yogya] merge repos_filtered_data_with_valid_locations with final_all_locations
