@@ -1,3 +1,10 @@
+2026.05.19
+- [nadia]
+  - jq + notebook for the 'doughtnut' plot
+  - update the hosts/liveness to include googlecode
+  - push old code to new repo
+  - update overleaf RQ1
+
 2026.04.30
 - [yogya] merge repos_filtered_data_with_valid_locations with final_all_locations
 - [yogya, nadia, roxana] 'retrieve' the original number of repositories before cleaning
