@@ -1,3 +1,11 @@
+2026.05.27
+- [yogya]
+  - complete methodology for RQ2
+  - update the plot in figure 4 with googlecode
+  - document the scripts for RQ1, RQ2, RQ3, RQ4
+- [yogya, benoit]
+  - look into contributors with funky locations and add one paragraph in RQ2
+     
 2026.05.19
 - [nadia]
   - jq + notebook for the 'doughtnut' plot
