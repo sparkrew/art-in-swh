@@ -1,3 +1,16 @@
+2026.05.28
+RQ3 session
+- [rafaela]
+  - plot the distribution of all combinations of characteristics
+  - plot the distribution of entities
+  - plot the distribution of the 7 combiation of interaction + outcome
+- [rafaela, roxana]
+  - select case studies for the rare and popular case studies
+- [roxana]
+  - plot the distribution of lines of code per sketch, include it in the paper and discuss it
+  - document scripts in the replication repo
+  - write the methodology for the LLM-based analysis of p5 sketches
+ 
 2026.05.27
 - [yogya]
   - complete methodology for RQ2
