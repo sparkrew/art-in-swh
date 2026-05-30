@@ -630,7 +630,7 @@ def compare_with_manual_labels(
 # MAIN
 # =========================
 
-PROMPT_VERSION = "PROMPT_11"
+PROMPT_VERSION = "PROMPT_10a"
 RUN_DATE = time.strftime("%Y%m%d")
 
 DATA_DIR = resolve_path("data")

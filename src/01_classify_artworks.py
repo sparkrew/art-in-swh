@@ -1,4 +1,4 @@
-1import json
+import json
 import os
 import re
 import time
@@ -19,7 +19,7 @@ ROOT_DIR = Path("/home/rpinter/links/projects/def-baudry/shared/data/artworks/sr
 
 # Same style as your notebook
 CONFIG_PATH = Path("../config.yml")
-PROMPT_VERSION = "PROMPT_11"
+PROMPT_VERSION = "PROMPT_10a"
 
 # Folder where output files will be saved
 OUTPUT_ROOT_DIR = Path("../artworks/")

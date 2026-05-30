@@ -456,6 +456,180 @@ Return only the JSON object using the following template:
     version="5.0"
 )
 
+
+PROMPT_10a = PromptTemplate(
+    name="detailed_analysis_new_categories",
+    template="""You classify p5.js source code and return ONLY a JSON object.
+
+Output format:
+{"entities":[],"interaction":[],"outcome":[]}
+
+Rules for output:
+- Return valid JSON only.
+- No markdown.
+- No explanation.
+- No extra text before or after the JSON.
+- entities: array of 0+ tags
+- interaction: array with exactly 1 tag, either "yes" or "no"
+- outcome: array with 1+ modality tags and exactly 1 time tag
+- If "auditory" is present, "time_based" must also be present
+
+The ONLY allowed tags for each category are:
+
+entities:
+- "processed_audio"
+- "processed_image"
+- "processed_text"
+- "synthesized_sound"
+- "synthesized_image"
+- "synthesized_text"
+- "randomness"
+
+interaction:
+- "yes"
+- "no"
+
+outcome:
+- "visual"
+- "auditory"
+- "static"
+- "time_based"
+
+How to classify
+
+entities
+- processed_audio: uses preexisting audio material or live audio input
+  Examples: loadSound(), audio files, microphone, audio capture, reading or transforming existing audio
+- processed_image: uses preexisting visual material or live visual input
+  Examples: loadImage(), image(), createVideo(), video files, webcam, camera, createCapture(VIDEO), reading or transforming existing visual material
+- processed_text: uses preexisting textual material
+  Examples: loadJSON(), loadStrings(), loadTable(), loadXML(), external text/code/data files
+- synthesized_sound: generates new sound or modifies audio in a generative way
+  Examples: oscillators, generated notes, algorithmic sound, transforming loaded audio and outputting sound
+- synthesized_image: generates or transforms visual output
+  Examples: shapes, lines, pixels, shaders, particles, typography on screen, image transformations
+- synthesized_text: text or typography is shown/generated as part of the piece
+  Examples: text() on screen, letters/words/symbols shown visually, fixed strings shown on screen
+- randomness: any randomness appears anywhere in the code
+  Examples: random(), noise(), Math.random(), shuffle, probabilistic choice, random seed usage
+
+interaction
+Use "yes" if the sketch uses any external input, environmental input, live input, or user input.
+Examples:
+- mouse, keyboard, touch
+- microphone, camera, sensors, MIDI
+- APIs, remote data, URLs, browser params
+Use "no" otherwise.
+
+Important interaction rules:
+- microphone input => interaction yes + processed_audio
+- camera/webcam/video capture => interaction yes + processed_image
+
+outcome
+These are based on human perception of the artwork, not internal code structure.
+
+Modality tags:
+- visual: anything human-visible is created or shown
+  Examples: shapes, images, animation, text on screen, visible video
+- auditory: any audible sound is produced or played
+  Examples: music, tones, generated sound, manipulated audio output
+
+Time tag:
+- static: the human experience does not vary over time
+- time-based: the human experience varies over time visually or auditorily anywhere in the output
+
+RANDOMNESS DECISION RULE
+
+Decide the randomness tag BEFORE semantic interpretation.
+
+Search the entire source code for any of these:
+- random(
+- noise(
+- Math.random
+- randomSeed
+- noiseSeed
+- randomGaussian
+- shuffle
+- random2D
+
+If ANY of them appears anywhere in the code, then entities MUST include "randomness".
+
+Important:
+- This includes preload(), setup(), draw(), helper functions, class methods, event handlers, optional branches, and modes.
+- This includes randomness used only to choose files, fonts, words, colors, positions, sizes, paths, or parameters.
+- This includes Perlin noise via noise(...).
+- Do not ask whether the randomness is central, visible, or dominant.
+- Presence anywhere in executable code is enough.
+
+TIME-BASED DECISION RULE
+
+Decide "time_based" from the HUMAN EXPERIENCE.
+
+Use "time_based" if a human can see or hear the piece change over runtime, even if:
+- the change is caused by mouse, keyboard, sliders, webcam, mic, or other interaction
+- the sketch progressively builds an image over frames
+- the sketch changes for a while and then stops with noLoop()
+- the animation is slow
+- the variation is driven by frameCount, millis, noise with a changing time input, random values generated during draw, or variables updated across frames
+- the variation happens outside the canvas
+
+Use "static" ONLY if the human experience stays visually and auditorily the same over time.
+
+Important:
+- A sketch is still "time_based" if it eventually stops after changing.
+- A sketch is still "time_based" if the visible change happens only when the user interacts.
+- Do NOT classify as "static" just because noLoop() appears somewhere.
+- Do NOT classify as "static" just because the piece is interactive rather than autonomous.
+
+Important temporal rules
+- Classify by final human experience, not by implementation details alone
+- A sketch can be static even if draw() exists
+- If it keeps rendering the same still image, use static
+- If visuals change over time, use time-based
+- If any sound is present, use auditory and time-based
+
+Important inference rules
+- Apply all tags that are needed
+- A sketch can have both processed and synthesized tags in the same modality
+- If generative text appears on screen, include synthesized_text and visual
+- Standard p5.js drawing/rendering usually implies synthesized_image and visual
+- If an image is loaded, transformed, and displayed, include processed_image, synthesized_image, visual
+- If a song is loaded and played, include processed_audio, auditory, time-based
+- If audio is read, transformed, and played, include processed_audio, synthesized_sound, auditory, time-based
+
+Again, the ONLY allowed tags are:
+
+entities:
+- "processed_audio"
+- "processed_image"
+- "processed_text"
+- "synthesized_sound"
+- "synthesized_image"
+- "synthesized_text"
+- "randomness"
+
+interaction:
+- "yes"
+- "no"
+
+outcome:
+- "visual"
+- "auditory"
+- "static"
+- "time_based"
+
+Return only the JSON object using the following template:
+    {
+    "entities": [...],
+    "interaction": [...],
+    "outcome": [...]
+    }
+""",
+    description="Detailed classification with interaction detection - New classification",
+    version="5.2"
+)
+
+
 # text false positives
 # 
 
@@ -655,4 +829,264 @@ Return only the JSON object using the following template:
 """,
     description="Detailed classification with interaction detection - New classification",
     version="5.1"
+)
+
+# PROMPT_12 = PromptTemplate(
+#     name="compact_p5_label_classifier",
+#     template="""You classify p5.js source code.
+
+# Return ONLY valid JSON in this format:
+# {"entities":[],"interaction":[],"outcome":[]}
+
+# Allowed tags:
+
+# entities:
+# - "processed_audio"
+# - "processed_image"
+# - "processed_text"
+# - "synthesized_sound"
+# - "synthesized_image"
+# - "synthesized_text"
+# - "randomness"
+
+# interaction:
+# - "yes"
+# - "no"
+
+# outcome:
+# - "visual"
+# - "auditory"
+# - "static"
+# - "time_based"
+
+# Rules:
+
+# 1. entities
+
+# Use "processed_audio" if the code loads, captures, reads, or uses existing audio.
+# Examples: loadSound(), audio files, microphone, audio input.
+
+# Use "processed_image" if the code loads, captures, reads, or uses existing visual media.
+# Examples: loadImage(), loadAnimation(), image files, GIFs, video, webcam, createCapture(VIDEO).
+
+# Use "processed_text" if the code loads, reads, or processes existing text/data.
+# Examples: loadJSON(), loadStrings(), loadTable(), loadXML(), external text/data files, user-entered text that is processed.
+
+# Use "synthesized_sound" if the code generates or algorithmically modifies sound.
+# Examples: oscillators, generated notes, synthesized audio.
+
+# Use "synthesized_image" if the code creates, draws, arranges, transforms, animates, or composes visual output.
+# Examples: createCanvas(), draw(), shapes, lines, points, pixels, shaders, images arranged into scenes, sprites, sprite movement, scrolling backgrounds, spawned objects, collisions, games, visual compositions.
+
+# Use "synthesized_text" if visible text is shown or generated for the user.
+# Examples: text(), createP(), createDiv(), createA(), createButton() labels, html() text, generated words, visible strings.
+
+# Use "randomness" if executable code contains random behavior.
+# Examples: random(), noise(), Math.random(), randomSeed(), noiseSeed(), randomGaussian(), shuffle(), random2D().
+# Ignore fully commented-out randomness.
+
+# 2. interaction
+
+# Use "yes" if the sketch uses user input, live input, runtime input, browser/page events, or interactive DOM elements.
+
+# Examples:
+# - mouseX, mouseY, mouseIsPressed
+# - mousePressed(), mouseReleased(), mouseOver(), mouseOut()
+# - keyPressed(), keyTyped(), keyDown(), keyIsDown()
+# - buttons, sliders, inputs, checkboxes, dropdowns
+# - input(), changed()
+# - createFileInput(), drag/drop
+# - microphone, webcam, sensors
+# - windowResized()
+# - remote/API/runtime URL data
+# - user-triggered visible DOM/page changes
+# - user-triggered console.log() or print()
+
+# Use "no" if the sketch only loads local files once or runs autonomously without user/runtime input.
+
+# Important:
+# - loadImage(), loadSound(), loadJSON(), loadStrings(), etc. do NOT imply interaction by themselves.
+# - Commented-out interaction does not count.
+
+# 3. outcome modality
+
+# Use "visual" if anything visible is shown on the canvas or page.
+# This includes canvas drawings, images, sprites, text, DOM elements, buttons, sliders, paragraphs, links, and visible style/html changes.
+
+# Use "auditory" if any sound is produced or played.
+# If "auditory" is present, "time_based" must also be present.
+
+# 4. outcome time
+
+# Use "time_based" if the human-visible or audible experience can change after the initial render.
+
+# This includes changes caused by:
+# - draw() changing variables over frames
+# - frameCount, millis, timers, intervals
+# - movement, velocity, animation, GIF/video playback
+# - random/noise values over time
+# - mouse, keyboard, buttons, sliders, inputs, dropdowns
+# - mouseOver(), mouseOut(), mousePressed(), keyPressed(), input(), changed()
+# - DOM/page changes such as createP(), createImg(), html(), style(), added elements
+# - sketches that build progressively and then stop
+# - sketches with noLoop() that still visibly change before stopping or after interaction
+
+# Use "static" ONLY if the human-visible and audible experience cannot change after the initial result.
+
+# Critical checks before answering:
+
+# - If the code uses createCanvas(), draw(), shapes, sprites, game scenes, image composition, movement, collisions, or generated visuals, include "synthesized_image".
+# - Do not return only "processed_image" for games, sprite scenes, composed images, or generated drawings.
+# - If interaction="yes" and the interaction changes anything visible or audible, outcome must include "time_based", not "static".
+# - If visible DOM/page content changes after interaction, outcome must include "visual" and "time_based".
+# - Console output alone does not make outcome visual or time_based.
+# - Ignore fully commented-out code.
+# - Return exactly one interaction tag: either "yes" or "no".
+# - Return exactly one time tag: either "static" or "time_based".
+
+# Return only the JSON object.
+# """,
+#     description="Compact p5.js classification prompt with strong final checks",
+#     version="6.0"
+# )
+
+PROMPT_12 = PromptTemplate(
+    name="compact_p5_label_classifier_strict_randomness",
+    template="""You classify p5.js source code.
+
+Return ONLY valid JSON in this format:
+{"entities":[],"interaction":[],"outcome":[]}
+
+Allowed tags:
+
+entities:
+- "processed_audio"
+- "processed_image"
+- "processed_text"
+- "synthesized_sound"
+- "synthesized_image"
+- "synthesized_text"
+- "randomness"
+
+interaction:
+- "yes"
+- "no"
+
+outcome:
+- "visual"
+- "auditory"
+- "static"
+- "time_based"
+
+Rules:
+
+1. entities
+
+Use "processed_audio" if the code loads, captures, reads, or uses existing audio.
+Examples: loadSound(), audio files, microphone, audio input.
+
+Use "processed_image" if the code loads, captures, reads, or uses existing visual media.
+Examples: loadImage(), loadAnimation(), image files, GIFs, video, webcam, createCapture(VIDEO).
+
+Use "processed_text" if the code loads, reads, or processes existing text/data.
+Examples: loadJSON(), loadStrings(), loadTable(), loadXML(), external text/data files, user-entered text that is processed.
+
+Use "synthesized_sound" if the code generates or algorithmically modifies sound.
+Examples: oscillators, generated notes, synthesized audio.
+
+Use "synthesized_image" if the code creates, draws, arranges, transforms, animates, or composes visual output.
+Examples: createCanvas(), draw(), shapes, lines, points, pixels, shaders, images arranged into scenes, sprites, sprite movement, scrolling backgrounds, spawned objects, collisions, games, visual compositions.
+
+Use "synthesized_text" if visible text is shown or generated for the user.
+Examples: text(), createP(), createDiv(), createA(), createButton() labels, html() text, generated words, visible strings.
+
+Use "randomness" if executable code contains ANY randomness anywhere.
+
+Decide the randomness tag BEFORE semantic interpretation.
+
+Search the entire executable source code for any of these:
+- random(
+- noise(
+- Math.random
+- randomSeed
+- noiseSeed
+- randomGaussian
+- shuffle
+- random2D
+
+If ANY of them appears anywhere in executable code, entities MUST include "randomness".
+
+Important randomness rules:
+- This includes preload(), setup(), draw(), helper functions, class methods, event handlers, optional branches, and modes.
+- This includes randomness used only to choose files, fonts, words, colors, positions, sizes, paths, images, sounds, text, or parameters.
+- This includes Perlin noise via noise(...).
+- Do not ask whether the randomness is central, visible, artistic, dominant, or important.
+- Do not ask whether the randomness affects the final visible result.
+- Presence anywhere in executable code is enough.
+- Ignore fully commented-out randomness.
+
+2. interaction
+
+Use "yes" if the sketch uses user input, live input, runtime input, browser/page events, or interactive DOM elements.
+
+Examples:
+- mouseX, mouseY, mouseIsPressed
+- mousePressed(), mouseReleased(), mouseOver(), mouseOut()
+- keyPressed(), keyTyped(), keyDown(), keyIsDown()
+- buttons, sliders, inputs, checkboxes, dropdowns
+- input(), changed()
+- createFileInput(), drag/drop
+- microphone, webcam, sensors
+- windowResized()
+- remote/API/runtime URL data
+- user-triggered visible DOM/page changes
+- user-triggered console.log() or print()
+
+Use "no" if the sketch only loads local files once or runs autonomously without user/runtime input.
+
+Important:
+- loadImage(), loadSound(), loadJSON(), loadStrings(), etc. do NOT imply interaction by themselves.
+- Commented-out interaction does not count.
+
+3. outcome modality
+
+Use "visual" if anything visible is shown on the canvas or page.
+This includes canvas drawings, images, sprites, text, DOM elements, buttons, sliders, paragraphs, links, and visible style/html changes.
+
+Use "auditory" if any sound is produced or played.
+If "auditory" is present, "time_based" must also be present.
+
+4. outcome time
+
+Use "time_based" if the human-visible or audible experience can change after the initial render.
+
+This includes changes caused by:
+- draw() changing variables over frames
+- frameCount, millis, timers, intervals
+- movement, velocity, animation, GIF/video playback
+- random/noise values over time
+- mouse, keyboard, buttons, sliders, inputs, dropdowns
+- mouseOver(), mouseOut(), mousePressed(), keyPressed(), input(), changed()
+- DOM/page changes such as createP(), createImg(), html(), style(), added elements
+- sketches that build progressively and then stop
+- sketches with noLoop() that still visibly change before stopping or after interaction
+
+Use "static" ONLY if the human-visible and audible experience cannot change after the initial result.
+
+Critical checks before answering:
+
+- If executable code contains random(), noise(), Math.random, randomSeed, noiseSeed, randomGaussian, shuffle, or random2D anywhere, include "randomness", even if it is not central or not visibly obvious.
+- If the code uses createCanvas(), draw(), shapes, sprites, game scenes, image composition, movement, collisions, or generated visuals, include "synthesized_image".
+- Do not return only "processed_image" for games, sprite scenes, composed images, or generated drawings.
+- If interaction="yes" and the interaction changes anything visible or audible, outcome must include "time_based", not "static".
+- If visible DOM/page content changes after interaction, outcome must include "visual" and "time_based".
+- Console output alone does not make outcome visual or time_based.
+- Ignore fully commented-out code.
+- Return exactly one interaction tag: either "yes" or "no".
+- Return exactly one time tag: either "static" or "time_based".
+
+Return only the JSON object.
+""",
+    description="Compact p5.js classification prompt with strict randomness detection",
+    version="6.1"
 )
