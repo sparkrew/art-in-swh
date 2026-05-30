@@ -8,3 +8,8 @@ sandbox/
 *.pdf
 *.ndjson
 jobs/
+*.json
+*.npy
+*.txt
+*.tmp
+*.jsonl
