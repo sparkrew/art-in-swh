@@ -1,0 +1,104 @@
+[
+  {
+    "file_path": "dsp-testing/A2Z-F15/week4/04_nytimes_word_counts/sketch.js",
+    "predicted_labels": {
+      "entities": [
+        "processed_text",
+        "synthesized_image"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "static",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "AfroDisco/website/Courses/intelligence_learning/session7/07_11_color_classifier/sketch.js",
+    "predicted_labels": {
+      "entities": [
+        "processed_text",
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "static",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "mohamedsekhri/website/Courses/intelligence_learning/session7/07_11_color_classifier/sketch.js",
+    "predicted_labels": {
+      "entities": [
+        "processed_text",
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "static",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "philtersoup/itp-creative-js/week5/01_p5_examples/13_weather_motion_input/sketch.js",
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image",
+        "processed_text"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "static",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "jtallison/LSU-PDM-Spring-2021/Week_1_T/starter-template/script.js",
+    "predicted_labels": {
+      "entities": [
+        "synthesized_sound"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "auditory",
+        "static"
+      ]
+    }
+  },
+  {
+    "file_path": "solomadcoder2k23/website/CodingChallenges/CC_149_Tic_Tac_Toe/P5/sketch.js",
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image",
+        "synthesized_text",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "static",
+        "time_based"
+      ]
+    }
+  }
+]
