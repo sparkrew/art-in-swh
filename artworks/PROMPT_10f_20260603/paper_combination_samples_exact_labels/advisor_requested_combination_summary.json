@@ -1,0 +1,74 @@
+[
+  {
+    "request_index": 1,
+    "name": "entities_synthesized_image_randomness_non_interactive_any_outcome",
+    "title": "Entities = synthesized_image + randomness, non-interactive, any outcome",
+    "matching_files_after_filter": 169,
+    "sampled_files": 30,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/01_entities_synthesized_image_randomness_non_interactive_any_outcome_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/01_entities_synthesized_image_randomness_non_interactive_any_outcome_files.json"
+  },
+  {
+    "request_index": 2,
+    "name": "entities_processed_image_synthesized_image_any_interaction_any_outcome",
+    "title": "Entities = processed_image + synthesized_image, any interaction, any outcome",
+    "matching_files_after_filter": 669,
+    "sampled_files": 30,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/02_entities_processed_image_synthesized_image_any_interaction_any_outcome_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/02_entities_processed_image_synthesized_image_any_interaction_any_outcome_files.json"
+  },
+  {
+    "request_index": 3,
+    "name": "static_image_no_interaction_no_sound_image_synth_exact",
+    "title": "Static image, no interaction, no sound, image synth",
+    "matching_files_after_filter": 253,
+    "sampled_files": 30,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/03_static_image_no_interaction_no_sound_image_synth_exact_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/03_static_image_no_interaction_no_sound_image_synth_exact_files.json"
+  },
+  {
+    "request_index": 4,
+    "name": "entities_processed_audio_synthesized_image_any_interaction_any_outcome",
+    "title": "Entities = processed_audio + synthesized_image, any interaction, any outcome",
+    "matching_files_after_filter": 84,
+    "sampled_files": 30,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/04_entities_processed_audio_synthesized_image_any_interaction_any_outcome_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/04_entities_processed_audio_synthesized_image_any_interaction_any_outcome_files.json"
+  },
+  {
+    "request_index": 5,
+    "name": "any_entity_any_interaction_only_auditory_time_based",
+    "title": "Any entity, any interaction, only auditory, time-based outcome",
+    "matching_files_after_filter": 0,
+    "sampled_files": 0,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/05_any_entity_any_interaction_only_auditory_time_based_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/05_any_entity_any_interaction_only_auditory_time_based_files.json"
+  },
+  {
+    "request_index": 6,
+    "name": "interactive_time_based_visual_any_entity",
+    "title": "Interactive, time-based visual, any entity",
+    "matching_files_after_filter": 2731,
+    "sampled_files": 30,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/06_interactive_time_based_visual_any_entity_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/06_interactive_time_based_visual_any_entity_files.json"
+  },
+  {
+    "request_index": 7,
+    "name": "rare_entity_combinations",
+    "title": "Rare combinations of entities",
+    "matching_files_after_filter": 87,
+    "sampled_files": 30,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/07_rare_entity_combinations_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/07_rare_entity_combinations_files.json"
+  },
+  {
+    "request_index": 8,
+    "name": "with_synthesized_text",
+    "title": "With synthesized_text",
+    "matching_files_after_filter": 402,
+    "sampled_files": 30,
+    "notebook_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/notebooks/08_with_synthesized_text_30_samples.ipynb",
+    "files_json_path": "/home/rpinter/art-in-swh/artworks/PROMPT_10f_20260603/paper_combination_samples_exact_labels/08_with_synthesized_text_files.json"
+  }
+]

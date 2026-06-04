@@ -1,0 +1,74 @@
+entity_combination,count,percentage
+synthesized_image,3868,0.21640371489314086
+randomness + synthesized_image,3468,0.1940248405505203
+processed_image + randomness + synthesized_image,2118,0.1184961396441759
+processed_image + synthesized_image,1773,0.09919436052366566
+processed_audio + synthesized_image,718,0.04017007944500391
+processed_text + synthesized_text,683,0.03821192794002461
+synthesized_image + synthesized_text,582,0.032561262168512926
+processed_text + randomness + synthesized_text,466,0.026071388609152958
+synthesized_text,366,0.020476670023497817
+randomness + synthesized_text,357,0.019973145350788854
+randomness + synthesized_image + synthesized_text,353,0.01974935660736265
+processed_image,316,0.017679310730670247
+processed_audio + processed_image + randomness + synthesized_image + synthesized_sound,281,0.015721159225690947
+processed_text + synthesized_image,184,0.01029428219760546
+processed_image + synthesized_image + synthesized_text,169,0.009455074409757189
+randomness + synthesized_image + synthesized_sound,155,0.00867181380776547
+processed_image + synthesized_text,148,0.008280183506769609
+processed_text + synthesized_image + synthesized_text,147,0.008224236320913058
+processed_text + randomness + synthesized_image,138,0.007720711648204095
+processed_audio + synthesized_image + synthesized_sound,138,0.007720711648204095
+synthesized_image + synthesized_sound,137,0.007664764462347544
+processed_text,130,0.007273134161351684
+processed_image + randomness + synthesized_image + synthesized_sound,129,0.007217186975495133
+processed_audio + randomness + synthesized_image,106,0.00593040170079445
+processed_audio + synthesized_sound,92,0.00514714109880273
+processed_audio,76,0.004251986125097908
+processed_text + randomness + synthesized_image + synthesized_text,73,0.004084144567528253
+synthesized_sound,68,0.0038044086382454964
+processed_audio + synthesized_text,60,0.003356831151393085
+processed_image + randomness + synthesized_sound,54,0.0030211480362537764
+processed_image + randomness + synthesized_image + synthesized_text,46,0.002573570549401365
+none,43,0.0024057289918317107
+synthesized_sound + synthesized_text,42,0.0023497818059751594
+randomness,39,0.002181940248405505
+processed_audio + processed_image + randomness + synthesized_image,38,0.002125993062548954
+processed_data + randomness + synthesized_image,36,0.002014098690835851
+processed_text + randomness,31,0.001734362761553094
+processed_image + processed_text + synthesized_image,30,0.0016784155756965425
+processed_image + randomness,23,0.0012867852747006825
+processed_image + randomness + synthesized_text,20,0.0011189437171310282
+processed_image + processed_text,17,0.0009511021595613741
+processed_text + randomness + synthesized_image + synthesized_sound,16,0.0008951549737048226
+randomness + synthesized_sound + synthesized_text,15,0.0008392077878482712
+processed_audio + synthesized_image + synthesized_text,15,0.0008392077878482712
+processed_data + synthesized_image,15,0.0008392077878482712
+processed_audio + processed_image + synthesized_image + synthesized_sound,11,0.0006154190444220656
+processed_image + processed_text + synthesized_image + synthesized_text,10,0.0005594718585655141
+processed_audio + synthesized_sound + synthesized_text,10,0.0005594718585655141
+processed_audio + randomness + synthesized_image + synthesized_text,9,0.0005035246727089627
+processed_audio + processed_text + synthesized_image,8,0.0004475774868524113
+processed_audio + randomness + synthesized_image + synthesized_sound,6,0.0003356831151393085
+processed_image + synthesized_image + synthesized_sound,5,0.00027973592928275706
+processed_audio + processed_image,4,0.00022378874342620565
+processed_audio + processed_image + synthesized_image,4,0.00022378874342620565
+processed_text + randomness + synthesized_sound,3,0.00016784155756965425
+processed_image + processed_text + randomness + synthesized_image,3,0.00016784155756965425
+processed_audio + processed_text,2,0.00011189437171310283
+processed_audio + processed_image + randomness + synthesized_sound + synthesized_text,2,0.00011189437171310283
+processed_audio + processed_image + randomness + synthesized_image + synthesized_sound + synthesized_text,2,0.00011189437171310283
+processed_text + synthesized_sound,2,0.00011189437171310283
+processed_image + processed_text + randomness + synthesized_text,2,0.00011189437171310283
+processed_audio + processed_text + synthesized_text,1,5.594718585655141e-05
+processed_audio + processed_image + synthesized_text,1,5.594718585655141e-05
+randomness + synthesized_sound,1,5.594718585655141e-05
+processed_audio + processed_image + randomness + synthesized_image + synthesized_text,1,5.594718585655141e-05
+processed_audio + processed_image + synthesized_image + synthesized_sound + synthesized_text,1,5.594718585655141e-05
+processed_audio + processed_image + synthesized_image + synthesized_text,1,5.594718585655141e-05
+processed_image + synthesized_image + synthesized_sound + synthesized_text,1,5.594718585655141e-05
+processed_audio + synthesized_image + synthesized_sound + synthesized_text,1,5.594718585655141e-05
+synthesized_image + synthesized_sound + synthesized_text,1,5.594718585655141e-05
+processed_image + processed_text + synthesized_text,1,5.594718585655141e-05
+processed_image + synthesized_sound + synthesized_text,1,5.594718585655141e-05
+processed_audio + randomness + synthesized_text,1,5.594718585655141e-05

@@ -1,0 +1,10 @@
+interaction_outcome_combination,count,percentage
+interaction=yes | time_based + visual,4893,0.49087078651685395
+interaction=no | static + visual,1920,0.1926163723916533
+interaction=no | time_based + visual,1758,0.17636436597110755
+interaction=yes | auditory + time_based + visual,1104,0.11075441412520064
+interaction=yes | static + visual,124,0.012439807383627608
+interaction=no | auditory + time_based + visual,90,0.009028892455858748
+interaction=yes | auditory + time_based,65,0.0065208667736757625
+interaction=no | static,8,0.0008025682182985554
+interaction=no | auditory + time_based,6,0.0006019261637239165
