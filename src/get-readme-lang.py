@@ -18,6 +18,7 @@ def getReadmeLang(GHdatafile):
         GHdata = json.load(file)
     for repo in GHdata:
         if repo["readme"]:
+            # remove '\n' otherwise predict fails
             cleanreadme=repo["readme"].replace('\n', '')
             repo["readme-lang"]=model.predict(cleanreadme)[0]
             # lang=model.predict(cleanreadme,3)
