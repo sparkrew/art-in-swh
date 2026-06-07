@@ -327,6 +327,11 @@
       "interaction": [],
       "outcome": []
     },
+    "gpt_classification":{
+      "entities": [],
+      "interaction": [],
+      "outcome": []
+    },
     "comments": "I didn't find this path"
   },
   {
@@ -749,6 +754,11 @@
       ]
     },
     "predicted_labels": {
+      "entities": [],
+      "interaction": [],
+      "outcome": []
+    },
+    "gpt_classification":{
       "entities": [],
       "interaction": [],
       "outcome": []
