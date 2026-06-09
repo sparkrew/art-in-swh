@@ -117,7 +117,7 @@
       ]
     },
     "gpt_classification":{"entities":["synthesized_text"],"interaction":["yes"],"outcome":["visual","time_based"]},
-    "comments": "why is this not interactive?"
+    "comments": "why is this not interactive?; Benoit: indeed glitch in manual annotation, also seems like the sketch is still wip..."
   },
   {
     "file_path": "rhedhs/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
@@ -305,7 +305,7 @@
       ]
     },
     "gpt_classification":{"entities":["processed_audio","processed_image","synthesized_image","randomness"],"interaction":["yes"],"outcome":["visual","auditory","time_based"]},
-    "comments": "it plays sound, why the classification does not mention it?"
+    "comments": "it plays sound, why the classification does not mention it?; Benoit: indeed, glitch in manual annotation"
   },
   {
     "file_path": "l/examples/tutorials/DOM-extensions/3/sketch.js",
@@ -580,7 +580,7 @@
       ]
     },
     "gpt_classification":{"entities":["synthesized_image"],"interaction":["no"],"outcome":["visual","time_based"]},
-    "comments": "why interactive in the classification?"
+    "comments": "why interactive in the classification?; this is correct, nothing is interactive"
   },
   {
     "file_path": "Scream145/Rainbow-Code/p5.js/4.1b_p5.js_while_for/sketch.js",
@@ -609,7 +609,7 @@
       ]
     },
     "gpt_classification": {"entities":["synthesized_image"],"interaction":["no"],"outcome":["visual","static"]},
-    "comments": "why interactive in the classification?"
+    "comments": "why interactive in the classification?; indeed glitch in manual annotation"
   },
   {
     "file_path": "cbrusch/dataart2016a/section1/Homework/Reinterpretation HW_Dana/Code example_cellphones/sketch.js",
@@ -618,8 +618,7 @@
         "processed_image"
       ],
       "interaction": [
-        "yes",
-        "no"
+        "yes"
       ],
       "outcome": [
         "visual",
@@ -641,7 +640,7 @@
       ]
     },
     "gpt_classification":{"entities":["processed_image","synthesized_image"],"interaction":["no"],"outcome":["visual","static"]},
-    "comments": "Yes or no in the classification?"
+    "comments": "Yes or no in the classification?; Benoit: should have been yes, I fixed"
   },
   {
     "file_path": "me3011/trexn/sketch.js",
@@ -735,7 +734,7 @@
       ]
     },
     "gpt_classification":{"entities":["synthesized_image","randomness"],"interaction":["no"],"outcome":["visual","time_based"]},
-    "comments": "why is this interactive in the classification?"
+    "comments": "why is this interactive in the classification?; Benoit: indeed glitch in manual annotation"
   },
   {
     "file_path": "examples/random_50_artworks_to_classify.json",
@@ -799,7 +798,7 @@
       ]
     },
     "gpt_classification":{"entities":["processed_audio","synthesized_image","synthesized_text","randomness"],"interaction":["yes"],"outcome":["visual","auditory","time_based"]},
-    "comments": "why not randomness? `createSprite(random(0, width-50), random(0,height-50), 50,50);`"
+    "comments": "why not randomness? `createSprite(random(0, width-50), random(0,height-50), 50,50);`Benoit: correct"
   },
   {
     "file_path": "seattleacademy/website/Tutorials/P5JS/p5.js/09/9.05_1_p5.js_setInterval/sketch.js",
@@ -1351,7 +1350,7 @@
       ]
     },
     "gpt_classification":{"entities":["processed_audio","processed_image","processed_text"],"interaction":["yes"],"outcome":["visual","auditory","time_based"]},
-    "comments": "why synthesized_sound? it seems like it just loops a sound"
+    "comments": "why synthesized_sound? it seems like it just loops a sound; Benoit: indeed, glitch in manual annotation"
   },
   {
     "file_path": "chrischi9/website/Tutorials/P5JS/p5.js_video/11.3_p5.js_pixels/sketch.js",
@@ -1382,7 +1381,7 @@
       ]
     },
     "gpt_classification":{"entities":["synthesized_image","randomness"],"interaction":["no"],"outcome":["visual","time_based"]},
-    "comments": "why is this interactive in the classification?"
+    "comments": "why is this interactive in the classification?; Benoit: indeed glitch in manual annotation"
   },
   {
     "file_path": "claudiamiranda/gray-area-immersive-summer-2016/Image_7_image/sketch.js",
