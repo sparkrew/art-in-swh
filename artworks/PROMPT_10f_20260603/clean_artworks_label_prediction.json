@@ -2413,7 +2413,6 @@
     "file_path": "carran085/Rainbow-Code/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -2425,7 +2424,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "carran085/Rainbow-Code/Tutorials/P5JS/p5.js/09/9.06_p5.js_Closure/sketch.js",
@@ -8112,7 +8111,6 @@
     "file_path": "Vaayaa/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -8124,7 +8122,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "Vaayaa/website/Tutorials/P5JS/p5.js/10/10.03_p5.js_what_is_JSON_pt2/sketch.js",
@@ -8165,7 +8163,6 @@
     "file_path": "Vaayaa/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -8177,7 +8174,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "Vaayaa/website/Tutorials/P5JS/p5.js/10/10.02_p5.js_what_is_JSON_pt1/sketch.js",
@@ -21644,7 +21641,6 @@
     "file_path": "Mitsutaka80/Rainbow-Code/Tutorials/P5JS/p5.js/8.6_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -21656,7 +21652,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "Mitsutaka80/Rainbow-Code/Tutorials/P5JS/p5.js/7.1_p5.js_What_is_HTML/sketch.js",
@@ -25753,7 +25749,6 @@
     "file_path": "Scream145/Rainbow-Code/p5.js/8.6_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -25765,7 +25760,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "Scream145/Rainbow-Code/p5.js/5.4_p5.js_functions_inside_of_objects/sketch.js",
@@ -38384,7 +38379,6 @@
     "file_path": "AfroDisco/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -38395,7 +38389,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "AfroDisco/website/Tutorials/P5JS/p5.js/10/10.07_p5.js_API_Query_With_setTimeInterval/sketch.js",
@@ -38436,7 +38430,6 @@
     "file_path": "AfroDisco/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -38448,7 +38441,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "AfroDisco/website/Tutorials/P5JS/p5.js/10/10.08_p5.js_Wordnik_API/sketch.js",
@@ -49337,7 +49330,6 @@
     "file_path": "ionescugeorge/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -49349,7 +49341,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "ionescugeorge/website/Tutorials/P5JS/p5.js/09/9.05_1_p5.js_setInterval/sketch.js",
@@ -49489,7 +49481,6 @@
     "file_path": "ionescugeorge/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -49501,7 +49492,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "ionescugeorge/website/Tutorials/P5JS/p5.js/09/9.08_p5.js_Random_Circles_with_No_Overlap/sketch.js",
@@ -54712,7 +54703,6 @@
     "file_path": "abhijit-dhar/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -54724,7 +54714,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "abhijit-dhar/website/Tutorials/P5JS/p5.js/10/10.02_p5.js_what_is_JSON_pt1/sketch.js",
@@ -68403,7 +68393,6 @@
     "file_path": "UngPkay/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -68414,7 +68403,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "UngPkay/website/Tutorials/P5JS/p5.js/10/10.03_p5.js_what_is_JSON_pt2/sketch.js",
@@ -72716,7 +72705,6 @@
     "file_path": "chenhuaixian/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -72728,7 +72716,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "chenhuaixian/website/Tutorials/P5JS/p5.js/10/10.08_p5.js_Wordnik_API/sketch.js",
@@ -72752,7 +72740,6 @@
     "file_path": "chenhuaixian/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -72764,7 +72751,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "chenhuaixian/website/Tutorials/P5JS/p5.js/08/8.06_p5.js_Other_Events_and_Inputs/sketch.js",
@@ -79807,7 +79794,6 @@
     "file_path": "yusukesaitoh/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -79819,7 +79805,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "yusukesaitoh/website/Tutorials/P5JS/p5.js/04/4.1_0_p5.js_while/sketch.js",
@@ -80127,7 +80113,6 @@
     "file_path": "yusukesaitoh/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -80138,7 +80123,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "yusukesaitoh/website/Tutorials/P5JS/p5.js/08/8.07_p5.js_The_basics_of_CSS/sketch.js",
@@ -85098,7 +85083,6 @@
     "file_path": "idea456/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -85110,7 +85094,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "idea456/website/Tutorials/P5JS/p5.js/08/8.10_p5.js_select_selectAll_with_CSS_selectors/sketch.js",
@@ -92855,7 +92839,6 @@
     "file_path": "mohamedsekhri/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -92866,7 +92849,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "mohamedsekhri/website/Tutorials/P5JS/p5.js/10/10.09_p5.js_New_York_Times_API/sketch.js",
@@ -99668,7 +99651,6 @@
     "file_path": "JesperVagn/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -99680,7 +99662,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "JesperVagn/website/Tutorials/P5JS/p5.js/10/10.08_p5.js_Wordnik_API/sketch.js",
@@ -99704,7 +99686,6 @@
     "file_path": "JesperVagn/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -99716,7 +99697,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "JesperVagn/website/Tutorials/P5JS/p5.js/01/1.4_p5.js_Color/sketch.js",
@@ -108712,7 +108693,6 @@
     "file_path": "remeyama/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -108724,13 +108704,12 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "remeyama/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -108741,7 +108720,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "remeyama/website/Tutorials/P5JS/p5.js/10/10.08_p5.js_Wordnik_API/sketch.js",
@@ -112906,7 +112885,6 @@
     "file_path": "surajjorwekar/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -112918,7 +112896,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "surajjorwekar/website/Tutorials/P5JS/p5.js/10/10.10_p5.js_giphy_api/sketch.js",
@@ -112940,7 +112918,6 @@
     "file_path": "surajjorwekar/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -112952,7 +112929,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "surajjorwekar/website/Tutorials/P5JS/p5.js/10/10.04_p5.js_Loading_JSON_from_URL/sketch.js",
@@ -115530,7 +115507,6 @@
     "file_path": "tututor/Rainbow-Code/Tutorials/P5JS/p5.js/8.6_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -115542,7 +115518,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "tututor/Rainbow-Code/Tutorials/P5JS/p5.js/6.3_p5.js_arrays_of_objects/sketch.js",
@@ -118149,7 +118125,6 @@
     "file_path": "notshekhar/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -118160,7 +118135,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "notshekhar/website/Tutorials/P5JS/p5.js/09/9.22_p5.js_custom_shapes/sketch.js",
@@ -118268,7 +118243,6 @@
     "file_path": "notshekhar/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -118280,7 +118254,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "notshekhar/website/Tutorials/P5JS/p5.js/09/9.20_p5.js_Polar_Coordinates/sketch.js",
@@ -124277,7 +124251,6 @@
     "file_path": "msyem2014/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -124288,7 +124261,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "msyem2014/website/Tutorials/P5JS/p5.js/09/9.22_p5.js_custom_shapes/sketch.js",
@@ -131408,7 +131381,6 @@
     "file_path": "lalan-kumar-alt/website-1/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -131420,7 +131392,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "lalan-kumar-alt/website-1/Tutorials/P5JS/p5.js_sound/17.10_radialGraph/sketch.js",
@@ -136136,7 +136108,6 @@
     "file_path": "rhedhs/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -136148,7 +136119,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "rhedhs/website/Tutorials/P5JS/p5.js/10/10.03_p5.js_what_is_JSON_pt2/sketch.js",
@@ -136241,7 +136212,6 @@
     "file_path": "rhedhs/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -136252,7 +136222,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "rhedhs/website/Tutorials/P5JS/p5.js_video/11.1_p5.js_createCapture/sketch.js",
@@ -144863,7 +144833,6 @@
     "file_path": "zal96/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -144874,7 +144843,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "zal96/website/Tutorials/P5JS/p5.js/10/10.10_p5.js_giphy_api/sketch.js",
@@ -145051,7 +145020,6 @@
     "file_path": "zal96/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -145063,7 +145031,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "zal96/website/CodingChallenges/CC_122_QuickDraw_1/Node/public/sketch.js",
@@ -153182,7 +153150,6 @@
     "file_path": "willy-goat/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -153193,7 +153160,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "willy-goat/website/Tutorials/P5JS/p5.js_video/11.5_checkbox_mirror/sketch.js",
@@ -153216,7 +153183,6 @@
     "file_path": "willy-goat/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -153228,7 +153194,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "willy-goat/website/Tutorials/P5JS/p5.js_video/11.2_p5.js_photoBooth/sketch.js",
@@ -166116,7 +166082,6 @@
     "file_path": "TAAjayi/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -166127,7 +166092,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "TAAjayi/website/Tutorials/P5JS/p5.js/10/10.07_p5.js_API_Query_With_setTimeInterval/sketch.js",
@@ -175139,7 +175104,6 @@
     "file_path": "ElenaBoroda/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -175151,7 +175115,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "ElenaBoroda/website/Tutorials/P5JS/p5.js/09/9.02_p5.js_Transformation_Pt.2/sketch.js",
@@ -175173,7 +175137,6 @@
     "file_path": "ElenaBoroda/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -175185,7 +175148,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "ElenaBoroda/website/Tutorials/P5JS/p5.js/09/9.05_1_p5.js_setInterval/sketch.js",
@@ -198641,7 +198604,6 @@
     "file_path": "cenkt/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -198653,7 +198615,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "cenkt/website/Tutorials/P5JS/p5.js/09/9.15_p5.js_2D_Arrays/sketch.js",
@@ -205179,7 +205141,6 @@
     "file_path": "chrischi9/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -205190,7 +205151,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "chrischi9/website/Tutorials/P5JS/p5.js/10/10.02_p5.js_what_is_JSON_pt1/sketch.js",
@@ -205281,7 +205242,6 @@
     "file_path": "chrischi9/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -205293,7 +205253,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "chrischi9/website/Tutorials/P5JS/p5.js/09/9.06_p5.js_Closure/sketch.js",
@@ -211532,7 +211492,6 @@
     "file_path": "Vishal-cod/website-3/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -211544,7 +211503,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "Vishal-cod/website-3/Tutorials/P5JS/p5.js/10/10.02_p5.js_what_is_JSON_pt1/sketch.js",
@@ -211620,7 +211579,6 @@
     "file_path": "Vishal-cod/website-3/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -211631,7 +211589,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "Vishal-cod/website-3/Tutorials/P5JS/p5.js_video/11.4_p5.js_brightness_mirror/sketch.js",
@@ -219453,7 +219411,6 @@
     "file_path": "aldden/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -219465,7 +219422,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "aldden/website/Tutorials/P5JS/p5.js/02/2.3_0_p5.js_JavaScript_without_objects/sketch.js",
@@ -234564,7 +234521,6 @@
     "file_path": "seanwoodward/Rainbow-Code/p5.js/8.6_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -234576,7 +234532,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "seanwoodward/Rainbow-Code/p5.js/7.13.3_p5.js_parent()_and_child()_again_with_variables/sketch.js",
@@ -237297,7 +237253,6 @@
     "file_path": "quintvanzijl/Rainbow-Code/p5.js/8.6_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -237308,7 +237263,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "quintvanzijl/Rainbow-Code/perlin_noise/03_graphing_perlin_noise/sketch.js",
@@ -239469,7 +239424,6 @@
     "file_path": "Pyato4ka/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -239481,7 +239435,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "Pyato4ka/website/Tutorials/P5JS/p5.js/10/10.02_p5.js_what_is_JSON_pt1/sketch.js",
@@ -244391,7 +244345,6 @@
     "file_path": "GeekAhmeds/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -244403,7 +244356,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "GeekAhmeds/website/Tutorials/P5JS/p5.js/10/10.02_p5.js_what_is_JSON_pt1/sketch.js",
@@ -254869,7 +254822,6 @@
     "file_path": "djhprojects/website/Tutorials/P5JS/p5.js/10/10.05_p5.js_Working_With_APIs/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -254881,7 +254833,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['no'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['no'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "djhprojects/website/Tutorials/P5JS/p5.js/10/10.02_p5.js_what_is_JSON_pt1/sketch.js",
@@ -266911,7 +266863,6 @@
     "file_path": "OnesAndZer0s/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image"
       ],
       "interaction": [
@@ -266922,7 +266873,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "OnesAndZer0s/website/Tutorials/P5JS/p5.js/03/3.4_1_p5.js_Boolean_variables/sketch.js",
@@ -299907,7 +299858,6 @@
     "file_path": "xlinx/website/Tutorials/P5JS/p5.js/10/10.06_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -299919,7 +299869,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "xlinx/website/Tutorials/P5JS/p5.js/10/10.03_p5.js_what_is_JSON_pt2/sketch.js",
@@ -305316,7 +305266,6 @@
     "file_path": "gabriel-combe/Rainbow-Code/Tutorials/P5JS/p5.js/8.6_p5.js_api_query_user_input/sketch.js",
     "predicted_labels": {
       "entities": [
-        "processed_data",
         "synthesized_image",
         "randomness"
       ],
@@ -305328,7 +305277,7 @@
         "time_based"
       ]
     },
-    "label_combination": "entities=['processed_data', 'synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
+    "label_combination": "entities=['synthesized_image', 'randomness'] | interaction=['yes'] | outcome=['visual', 'time_based']"
   },
   {
     "file_path": "gabriel-combe/Rainbow-Code/Tutorials/P5JS/p5.js/8.3_p5.js_what_is_JSON_pt2/sketch.js",
