@@ -1,0 +1,477 @@
+[
+  {
+    "file_path": "anvisharad2009/C-15-PROJECT-3/Project-Template-C15-main - Copy/sketch.js",
+    "discussion": "The code is an interactive game where the player moves and objects appear on the screen: money, diamonds, jewels and swords. It shows the score of the collected treasures.",
+    "differences": [
+      "synthesized_text"
+    ],
+    "manual_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "synthesized_text",
+        "randomness"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "seattleacademy/website/CodingChallenges/CC_131_BouncingDVDLogo/P5/sketch.js",
+    "discussion": "Artwork",
+    "differences": [
+      "interactive-yes"
+    ],
+    "manual_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "OnesAndZer0s/website/CodingChallenges/CC_030_Phyllotaxis/P5/sketch.js",
+    "discussion": "Artwork",
+    "differences": [
+      "synthesized_text"
+    ],
+    "manual_labels": {
+      "entities": [
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "fcarden/website/Tutorials/perlin_noise/04_perlin_noise_2D/sketch.js",
+    "discussion": "Artwork",
+    "differences": [
+      "time_based"
+    ],
+    "manual_labels": {
+      "entities": [
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "static"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "Shyama2006/Kangaroo2/sketch.js",
+    "discussion": "Interactive Game with a kangaroo",
+    "differences": [
+      ""
+    ],
+    "manual_labels": {
+      "entities": [
+        "processed_image",
+        "processed_audio",
+        "randomness"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "auditory",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "processed_audio",
+        "synthesized_sound",
+        "randomness"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "auditory",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "Rlapham/node-densecap/public/sketch.js",
+    "discussion": "Show a screen where you can upload an image. I don't consider this as time_based, but it could be because it changes when you upload an image. Ask",
+    "differences": [
+      "synthesized_image"
+    ],
+    "manual_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_text"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "synthesized_text"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "MDU142008/project-19/C19-AA1-main/sketch.js",
+    "discussion": "Interactive Game with a kangaroo",
+    "differences": [
+      "processed_sound",
+      "synthesized_image",
+      "auditory"
+    ],
+    "manual_labels": {
+      "entities": [
+        "processed_image",
+        "processed_sound",
+        "randomness"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "auditory",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "solomadcoder2k23/website/learning/nature-of-code/3.1-angles-rotation/P5/sketch.js",
+    "discussion": "Artwork, pink rectangle rotating, no interaction",
+    "differences": [
+      ""
+    ],
+    "manual_labels": {
+      "entities": [
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "Tekman03/website/Courses/programming_with_text/session10/10-03_Text-to-Speech_with_p5.Speech/sketch.js",
+    "discussion": "Text-to-Speech with p5.Speech",
+    "differences": [
+      ""
+    ],
+    "manual_labels": {
+      "entities": [
+        "synthesized_sound",
+        "synthesized_text"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "auditory",
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "synthesized_sound",
+        "synthesized_text"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "auditory",
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "su-per-man/website/CodingChallenges/CC_074_Clock/P5/sketch.js",
+    "discussion": "Clock with synthesized image and visual outcome",
+    "differences": [
+      "entities-visual"
+    ],
+    "manual_labels": {
+      "entities": [
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "crecord/p5.js/examples/addons/p5.dom/video_pixels/sketch.js",
+    "discussion": "Video pixels with synthesized image and visual outcome",
+    "differences": [
+      "interactive-yes"
+    ],
+    "manual_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "processed_image",
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "KingCoder-pixel/Fruit-Catcher/sketch.js",
+    "discussion": "Fruit Catcher game with processed image and visual outcome",
+    "differences": [
+      ""
+    ],
+    "manual_labels": {
+      "entities": [
+        "processed_image"
+      ],
+      "interaction": [
+        "yes"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "processed_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "static"
+      ]
+    }
+  },
+  {
+    "file_path": "PrinceGrewal/website/CodingChallenges/CC_093_DoublePendulum/P5/sketch.js",
+    "discussion": "Double pendulum. It doesn't use randomness, it uses sine and cosine functions.",
+    "differences": [
+      "randomness"
+    ],
+    "manual_labels": {
+      "entities": [
+        "synthesized_image"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  },
+  {
+    "file_path": "lafifii/CPAnimated/Su_Doku_UVA989/sketch.js",
+    "discussion": "It shows a Sudoku puzzle of 4x4, changing the numbers.",
+    "differences": [
+      "static"
+    ],
+    "manual_labels": {
+      "entities": [
+        "synthesized_image",
+        "synthesized_text",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    },
+    "predicted_labels": {
+      "entities": [
+        "synthesized_image",
+        "randomness"
+      ],
+      "interaction": [
+        "no"
+      ],
+      "outcome": [
+        "visual",
+        "time_based"
+      ]
+    }
+  }
+]

@@ -1,7 +1,4 @@
-
-Using this prompt:
- Using this prompt:
- You classify p5.js source code and return ONLY a JSON object.
+You classify p5.js source code and return ONLY a JSON object.
 
 Output format:
 {"entities":[],"interaction":[],"outcome":[]}

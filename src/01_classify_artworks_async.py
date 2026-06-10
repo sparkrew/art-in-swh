@@ -19,7 +19,7 @@ from Prompts import *
 ROOT_DIR = Path("/home/rpinter/links/projects/def-baudry/shared/data/artworks/src")
 
 CONFIG_PATH = Path("../config.yml")
-PROMPT_VERSION = "PROMPT_10a"
+PROMPT_VERSION = "PROMPT_10f"
 
 OUTPUT_ROOT_DIR = Path("../artworks/")
 
@@ -39,7 +39,7 @@ ERROR_FILE = OUTPUT_DIR / "errors.jsonl"
 MAX_FILES_TO_RUN = None
 
 # Start with 16. Then try 32.
-CONCURRENCY = 16
+CONCURRENCY = 40
 
 # Keep this not too high while testing.
 MAX_COMPLETION_TOKENS = 512

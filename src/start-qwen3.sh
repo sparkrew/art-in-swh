@@ -45,4 +45,4 @@ vllm serve ../links/projects/def-baudry/shared/huggingface/models--Qwen--Qwen3-C
   --max-model-len 32768 \
   --gpu-memory-utilization 0.9 \
   --max-num-batched-tokens 32768 \
-  --max-num-seqs 32
+  --max-num-seqs 40

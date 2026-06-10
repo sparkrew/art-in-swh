@@ -11,8 +11,8 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PROMPT_VERSION = "PROMPT_10a"
-RUN_DATE = "20260528"
+PROMPT_VERSION = "PROMPT_10f"
+RUN_DATE = "20260603"
 
 EXPERIMENT_DIR = PROJECT_ROOT / "artworks" / f"{PROMPT_VERSION}_{RUN_DATE}"
 

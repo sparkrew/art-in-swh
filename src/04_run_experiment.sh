@@ -14,7 +14,7 @@ python -u 02_prediction_processing.py
 
 echo
 echo "Step 3/3: create prediction processing cases..."
-python -u 05_create_random_src_samples.py
+python -u 04_create_random_src_samples.py
 
 echo
 echo "Done."

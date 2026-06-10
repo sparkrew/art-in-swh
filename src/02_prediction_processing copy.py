@@ -17,28 +17,6 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
 
-ALLOWED_LABELS_BY_GROUP = {
-    "entities": {
-        "processed_audio",
-        "processed_image",
-        "processed_text",
-        "synthesized_sound",
-        "synthesized_text",
-        "synthesized_image",
-        "randomness",
-    },
-    "interaction": {
-        "yes",
-        "no",
-    },
-    "outcome": {
-        "visual",
-        "auditory",
-        "static",
-        "time_based",
-    },
-}
-
 def resolve_path(path: str | Path, base_dir: Path = PROJECT_ROOT) -> Path:
     """
     Resolve relative paths from PROJECT_ROOT instead of the current terminal folder.
@@ -130,8 +108,7 @@ def clean_predictions(raw_preds: list[dict], files_to_rm: set[str]) -> list[dict
         if normalize_path(pred["file_path"]) not in files_to_rm
     ]
 
-    cleaned_preds = []
-
+    # Remove hallucinated labels in the entities
     for artwork in preds:
         predicted_labels = artwork.get("predicted_labels", {})
 
@@ -139,24 +116,13 @@ def clean_predictions(raw_preds: list[dict], files_to_rm: set[str]) -> list[dict
         predicted_labels["interaction"] = ensure_list(predicted_labels.get("interaction", []))
         predicted_labels["outcome"] = ensure_list(predicted_labels.get("outcome", []))
 
-        # Remove hallucinated or misplaced labels from each group
-        for group, allowed_labels in ALLOWED_LABELS_BY_GROUP.items():
-            predicted_labels[group] = [
-                label
-                for label in predicted_labels[group]
-                if label in allowed_labels
-            ]
+        for label in ["auditory", "visual", "time_based"]:
+            while label in predicted_labels["entities"]:
+                predicted_labels["entities"].remove(label)
 
-        # Remove invalid temporal outcome combinations
-        outcomes = set(predicted_labels["outcome"])
+    return preds
 
-        if "static" in outcomes and "time_based" in outcomes:
-            continue
 
-        cleaned_preds.append(artwork)
-
-    return cleaned_preds
-    
 def add_label_combination(preds: list[dict]) -> None:
     for pred in preds:
         labels = pred["predicted_labels"]
@@ -665,9 +631,7 @@ def compare_with_manual_labels(
 # =========================
 
 PROMPT_VERSION = "PROMPT_10f"
-# RUN_DATE = time.strftime("%Y%m%d")
-RUN_DATE = "20260603"
-
+RUN_DATE = time.strftime("%Y%m%d")
 
 DATA_DIR = resolve_path("data")
 OUTPUT_ROOT_DIR = resolve_path("artworks")
