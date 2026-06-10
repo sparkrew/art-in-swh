@@ -97,11 +97,11 @@
         "synthesized_text"
       ],
       "interaction": [
-        "no"
+        "yes"
       ],
       "outcome": [
         "visual",
-        "static"
+        "time_based"
       ]
     },
     "predicted_labels": {
@@ -277,23 +277,22 @@
     "file_path": "legendsaurabh/kangaroo-pt.1/PRO-C38-Template-main/PRO-C38-Template-main/sketch.js",
     "classification": {
       "entities": [
-        "processed_image"
+        "processed_image",
+        "processed_audio"
       ],
       "interaction": [
         "yes"
       ],
       "outcome": [
         "visual",
+        "auditory",
         "time_based"
       ]
     },
     "predicted_labels": {
       "entities": [
         "processed_image",
-        "synthesized_image",
-        "processed_audio",
-        "synthesized_sound",
-        "randomness"
+        "processed_audio"
       ],
       "interaction": [
         "yes"
@@ -560,7 +559,7 @@
         "synthesized_image"
       ],
       "interaction": [
-        "yes"
+        "no"
       ],
       "outcome": [
         "visual",
@@ -589,7 +588,7 @@
         "synthesized_image"
       ],
       "interaction": [
-        "yes"
+        "no"
       ],
       "outcome": [
         "visual",
@@ -615,10 +614,11 @@
     "file_path": "cbrusch/dataart2016a/section1/Homework/Reinterpretation HW_Dana/Code example_cellphones/sketch.js",
     "classification": {
       "entities": [
-        "processed_image"
+        "processed_image",
+        "synthesized_image"
       ],
       "interaction": [
-        "yes"
+        "no"
       ],
       "outcome": [
         "visual",
@@ -628,8 +628,7 @@
     "predicted_labels": {
       "entities": [
         "processed_image",
-        "synthesized_image",
-        "randomness"
+        "synthesized_image"
       ],
       "interaction": [
         "no"
@@ -713,7 +712,7 @@
         "randomness"
       ],
       "interaction": [
-        "yes"
+        "no"
       ],
       "outcome": [
         "visual",
@@ -737,40 +736,13 @@
     "comments": "why is this interactive in the classification?; Benoit: indeed glitch in manual annotation"
   },
   {
-    "file_path": "examples/random_50_artworks_to_classify.json",
-    "classification": {
-      "entities": [
-        "processed_image",
-        "synthesized_image",
-        "synthesized_text"
-      ],
-      "interaction": [
-        "yes"
-      ],
-      "outcome": [
-        "visual",
-        "time_based"
-      ]
-    },
-    "predicted_labels": {
-      "entities": [],
-      "interaction": [],
-      "outcome": []
-    },
-    "gpt_classification":{
-      "entities": [],
-      "interaction": [],
-      "outcome": []
-    },
-    "comments": "error maybe?"
-  },
-  {
     "file_path": "mateotis/find-bae/find-bae.js",
     "classification": {
       "entities": [
         "processed_audio",
         "synthesized_image",
-        "synthesized_text"
+        "synthesized_text",
+        "randomness"
       ],
       "interaction": [
         "yes"
@@ -1323,8 +1295,7 @@
       "entities": [
         "processed_audio",
         "processed_image",
-        "processed_text",
-        "synthesized_sound"
+        "processed_text"
       ],
       "interaction": [
         "yes"
@@ -1360,7 +1331,7 @@
         "randomness"
       ],
       "interaction": [
-        "yes"
+        "no"
       ],
       "outcome": [
         "visual",
